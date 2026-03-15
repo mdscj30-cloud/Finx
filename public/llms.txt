@@ -1,0 +1,23 @@
+## Pages
+- [| FinxisAI](/funnel): No description available
+- [| FinxisAI](/location): No description available
+- [| FinxisAI Case Study](/casestudy): No description available
+- [| FinxisAI Partner Program](/partnership): No description available
+- [About FinxisAI | Company Mission & Expertise](/about): Discover the mission behind FinxisAI. We combine expert financial oversight with advanced AI to revolutionize operations for businesses worldwide.
+- [Billing - FinxisAI Client Portal](/clientbilling): No description available
+- [Careers - Join FinxisAI](/careers): Join the FinxisAI team and help us build the future of financial automation. Explore our open positions.
+- [Case Studies | FinxisAI Success Stories](/casestudies): See how businesses automate finance with FinxisAI. Real results from SaaS, E-commerce, and Agencies using our AI platform.
+- [Connecting to QuickBooks...](/quickbookscallback): No description available
+- [Definition`} | FinxisAI Glossary](/glossaryterm): No description available
+- [Documents - FinxisAI](/clientdocuments): No description available
+- [Financial Services Guides | FinxisAI Blog](/blogcategory): No description available
+- [Get Started with FinxisAI | Onboarding](/onboarding): Start your journey with FinxisAI. Configure your AI bookkeeping and financial automation package in minutes.
+- [Industry Solutions & Funnels | FinxisAI](/funnellist): Explore our specialized financial solutions for SaaS, E-Commerce, Startups, CPA Firms, and Small Businesses.
+- [Integrations - FinxisAI Client Portal](/clientintegrations): No description available
+- [Login - FinxisAI](/login): No description available
+- [Professional Dashboard - FinxisAI Client Portal](/clientdashboard): No description available
+- [Reports - FinxisAI Client Portal](/clientreports): No description available
+- [Settings - FinxisAI Client Portal](/clientsettings): No description available
+- [Small Business Financial Automation | FinxisAI](/solutionssmb): Get your finances on autopilot with FinxisAI. Real-time dashboards, automated bookkeeping, and AI-powered insights to help your business grow.
+- [Upcoming Compliance Deadlines | FinxisAI](/compliancedeadlines): Stay ahead of regulatory requirements with our comprehensive guide to financial and tax deadlines for USA, UK, Australia, Netherlands, Egypt, and UAE.
+- [US Company Formation | FinxisAI](/formationservices): Form your US LLC or C-Corp from anywhere in the world. Includes Bookkeeping, Tax Filing, EIN, Registered Agent, and US Bank Account support.
