@@ -116,13 +116,19 @@ const ClientIntegrations = () => {
 
   const handleConnect = (name) => {
     if (name === 'QuickBooks') {
-      const clientId = 'ABXOQ4t3yoFTB04oHbfia0iiO9BZphK9gNn3nNmbuDJl3U45NH'; // This will be read from secrets on the server, not here.
-      const redirectUri = 'https://finxisai.com/client/dashboard';
+      // Client ID is public (sent in redirect URL) — safe to expose in frontend env var
+      const clientId = import.meta.env.VITE_QB_CLIENT_ID;
+      const redirectUri = 'https://finxisai.com/quickbooks-callback';
       const scope = 'com.intuit.quickbooks.accounting';
       const state = Math.random().toString(36).substring(2);
-      
+
+      if (!clientId) {
+        toast({ title: 'QuickBooks not configured', description: 'Contact support to enable this integration.', variant: 'destructive' });
+        return;
+      }
+
       const authUrl = `https://appcenter.intuit.com/connect/oauth2?client_id=${clientId}&response_type=code&scope=${scope}&redirect_uri=${encodeURIComponent(redirectUri)}&state=${state}`;
-      
+
       window.location.href = authUrl;
 
     } else if (name === 'Calendly') {
