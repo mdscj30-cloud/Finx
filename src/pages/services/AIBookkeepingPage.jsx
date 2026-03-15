@@ -63,13 +63,13 @@ const AIBookkeepingPage = () => {
         title="AI Bookkeeping Services | Real-time Reconciliation | FinxisAI"
         description="Transform your financial operations with FinxisAI's AI-enabled bookkeeping. Real-time reconciliation, 99.9% accuracy, and expert human oversight for modern businesses."
         keywords="AI bookkeeping, automated accounting, real-time reconciliation, financial automation, bookkeeping services"
-        url="https://finxis.ai/services/ai-bookkeeping"
+        url="https://finxisai.com/services/ai-bookkeeping"
         schema={[
           generateFAQPageSchema(faqs),
           generateBreadcrumbSchema([
-            { name: "Home", url: "https://finxis.ai" },
-            { name: "Services", url: "https://finxis.ai/services" },
-            { name: "AI Bookkeeping", url: "https://finxis.ai/services/ai-bookkeeping" }
+            { name: "Home", url: "https://finxisai.com" },
+            { name: "Services", url: "https://finxisai.com/services" },
+            { name: "AI Bookkeeping", url: "https://finxisai.com/services/ai-bookkeeping" }
           ])
         ]}
       />

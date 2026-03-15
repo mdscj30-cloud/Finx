@@ -6,7 +6,7 @@ const InHouseFinanceTeamVsVirtualCFO = () => {
     <ComparisonPageTemplate
       pageTitle="In-House Finance Team vs. Virtual CFO: Building Your Financial Stack"
       pageDesc="A comparative guide for CEOs deciding between building an internal finance department or leveraging a fractional Virtual CFO service."
-      canonicalUrl="https://finxis.ai/comparison/in-house-finance-team-vs-virtual-cfo"
+      canonicalUrl="https://finxisai.com/comparison/in-house-finance-team-vs-virtual-cfo"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

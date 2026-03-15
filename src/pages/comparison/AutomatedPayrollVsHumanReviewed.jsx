@@ -5,7 +5,7 @@ const AutomatedPayrollVsHumanReviewed = () => {
   const data = {
     pageTitle: "Fully Automated Payroll vs. Human-Reviewed: Finding the Sweet Spot",
     pageDesc: "Is 'set it and forget it' safe for payroll?",
-    canonicalUrl: "https://finxis.ai/comparison/automated-payroll-vs-human-reviewed",
+    canonicalUrl: "https://finxisai.com/comparison/automated-payroll-vs-human-reviewed",
     introduction: <p>Automation is great, but payroll anomalies need human eyes.</p>,
     whatsDifference: {
       intro: <p>Speed vs. Oversight.</p>,

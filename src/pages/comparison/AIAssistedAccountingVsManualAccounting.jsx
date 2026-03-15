@@ -6,7 +6,7 @@ const AIAssistedAccountingVsManualAccounting = () => {
   const data = {
     pageTitle: "AI-Assisted Accounting vs. Manual Accounting: Which is Right for Your Business?",
     pageDesc: "Compare modern AI-driven accounting with traditional manual methods. Discover how automation improves accuracy, speed, and strategic value for growing companies.",
-    canonicalUrl: "https://finxis.ai/comparison/ai-assisted-accounting-vs-manual-accounting",
+    canonicalUrl: "https://finxisai.com/comparison/ai-assisted-accounting-vs-manual-accounting",
     introduction: (
       <>
         <QuickAnswerBlock 

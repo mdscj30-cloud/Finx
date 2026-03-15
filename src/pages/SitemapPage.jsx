@@ -13,7 +13,7 @@ const SitemapPage = () => {
     document.title = "sitemap.xml";
   }, []);
 
-  const baseUrl = "https://finxis.ai";
+  const baseUrl = "https://finxisai.com";
   const lastMod = new Date().toISOString().split('T')[0];
 
   const renderUrl = (path, priority, freq) => {

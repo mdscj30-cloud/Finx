@@ -13,7 +13,7 @@ const NotFoundPage = () => {
       <SEOHead 
         title="Page Not Found - 404 | FinxisAI"
         description="The page you are looking for does not exist. Explore FinxisAI's AI-driven financial services, blog, or return home."
-        url="https://finxis.ai/404"
+        url="https://finxisai.com/404"
       />
       <Header />
       

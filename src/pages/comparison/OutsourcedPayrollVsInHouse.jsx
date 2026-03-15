@@ -6,7 +6,7 @@ const OutsourcedPayrollVsInHouse = () => {
   const data = {
     pageTitle: "Outsourced Payroll vs. In-House Management",
     pageDesc: "Should you hire a payroll specialist or use a service?",
-    canonicalUrl: "https://finxis.ai/comparison/outsourced-payroll-vs-in-house",
+    canonicalUrl: "https://finxisai.com/comparison/outsourced-payroll-vs-in-house",
     introduction: (
       <>
         <QuickAnswerBlock 

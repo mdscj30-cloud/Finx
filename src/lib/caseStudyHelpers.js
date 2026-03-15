@@ -44,7 +44,7 @@ export const generateCaseStudySchema = (study) => {
     "@type": "Article",
     "headline": study.title,
     "description": study.metaDescription,
-    "image": `https://finxis.ai/images/case-studies/${study.slug}.jpg`, // Placeholder
+    "image": `https://finxisai.com/images/case-studies/${study.slug}.jpg`, // Placeholder
     "author": {
       "@type": "Organization",
       "name": "FinxisAI"
@@ -54,13 +54,13 @@ export const generateCaseStudySchema = (study) => {
       "name": "FinxisAI",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://finxis.ai/logo.png"
+        "url": "https://finxisai.com/logo.png"
       }
     },
     "datePublished": "2024-01-01", // Placeholder
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://finxis.ai/case-studies/${study.slug}`
+      "@id": `https://finxisai.com/case-studies/${study.slug}`
     },
     "about": {
       "@type": "Organization",

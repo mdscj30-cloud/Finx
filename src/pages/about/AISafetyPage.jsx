@@ -20,7 +20,7 @@ const AISafetyPage = () => {
       <Helmet>
         <title>AI Safety & Responsible Use | FinxisAI</title>
         <meta name="description" content="Read our AI Safety Policy. FinxisAI prioritizes human oversight, data privacy, and deterministic algorithms to ensure responsible financial automation." />
-        <link rel="canonical" href="https://finxis.ai/about/ai-safety" />
+        <link rel="canonical" href="https://finxisai.com/about/ai-safety" />
         <script type="application/ld+json">
           {JSON.stringify(generateOrganizationSchema())}
         </script>

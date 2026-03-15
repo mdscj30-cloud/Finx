@@ -139,7 +139,7 @@ const CPABookkeepingPage = () => {
         <title>AI-Enabled Bookkeeping for CPAs | FinxisAI</title>
         <meta name="description" content="Streamline your CPA firm's client work with AI-enabled bookkeeping. Reduce manual entry, improve accuracy, and scale your practice without compromising professional standards." />
         <meta name="keywords" content="CPA bookkeeping, AI for accountants, automated bookkeeping for firms, accounting practice automation" />
-        <link rel="canonical" href="https://finxis.ai/services/cpa-bookkeeping" />
+        <link rel="canonical" href="https://finxisai.com/services/cpa-bookkeeping" />
       </Helmet>
 
       <Header />
@@ -503,7 +503,7 @@ const CPABookkeepingPage = () => {
                 </Button>
              </div>
              <p className="mt-8 text-sm text-slate-500">
-               Questions? Call us at (800) 555-0199 or email <a href="mailto:partners@finxis.ai" className="text-blue-600 underline">partners@finxis.ai</a>
+               Questions? Call us at (800) 555-0199 or email <a href="mailto:partners@finxisai.com" className="text-blue-600 underline">partners@finxisai.com</a>
              </p>
           </div>
         </section>

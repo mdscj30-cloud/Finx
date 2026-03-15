@@ -35,7 +35,7 @@ const ClientSettingsPage = () => {
               </div>
               <div>
                 <Label htmlFor="email">Email Address</Label>
-                <Input id="email" type="email" defaultValue="demo@finxis.ai" disabled />
+                <Input id="email" type="email" defaultValue="demo@finxisai.com" disabled />
               </div>
               <div>
                 <Label htmlFor="company">Company Name</Label>

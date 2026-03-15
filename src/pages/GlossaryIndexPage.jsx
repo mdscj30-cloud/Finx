@@ -41,7 +41,7 @@ const GlossaryIndexPage = () => {
       <Helmet>
         <title>Financial Glossary | Accounting & Business Terms | FinxisAI</title>
         <meta name="description" content="Browse our comprehensive glossary of 200+ financial, accounting, and business terms. Clear definitions and examples for business owners and CPAs." />
-        <link rel="canonical" href="https://finxis.ai/glossary" />
+        <link rel="canonical" href="https://finxisai.com/glossary" />
       </Helmet>
 
       <Header />

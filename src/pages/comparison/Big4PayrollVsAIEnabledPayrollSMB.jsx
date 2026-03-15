@@ -6,7 +6,7 @@ const Big4PayrollVsAIEnabledPayrollSMB = () => {
     <ComparisonPageTemplate
       pageTitle="Big 4 Payroll vs. AI-Enabled Payroll: Agility vs. Legacy"
       pageDesc="A comparison of global payroll providers (Big 4/ADP) versus modern, AI-driven payroll platforms for small to mid-sized businesses."
-      canonicalUrl="https://finxis.ai/comparison/big-4-payroll-vs-ai-enabled-payroll-smb"
+      canonicalUrl="https://finxisai.com/comparison/big-4-payroll-vs-ai-enabled-payroll-smb"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

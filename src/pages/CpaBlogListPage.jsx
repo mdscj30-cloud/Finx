@@ -84,7 +84,7 @@ const CpaBlogListPage = () => {
       <Helmet>
         <title>CPA Knowledge Hub | Strategic Insights & Industry Trends | FinxisAI</title>
         <meta name="description" content="Expert insights for CPAs and accounting firms. Explore guides on tax strategy, practice management, automation, and industry-specific financial services." />
-        <link rel="canonical" href="https://finxis.ai/blog/cpa" />
+        <link rel="canonical" href="https://finxisai.com/blog/cpa" />
       </Helmet>
       
       <Header />

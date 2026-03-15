@@ -5,7 +5,7 @@ const FullyAutomatedVsHumanReviewedAI = () => {
   const data = {
     pageTitle: "Fully Automated Accounting vs. Human-Reviewed AI",
     pageDesc: "The danger of 'autopilot' in accounting.",
-    canonicalUrl: "https://finxis.ai/comparison/fully-automated-vs-human-reviewed-ai",
+    canonicalUrl: "https://finxisai.com/comparison/fully-automated-vs-human-reviewed-ai",
     introduction: <p>Automation is powerful, but unsupervised AI can make messy books.</p>,
     whatsDifference: {
       intro: <p>Supervision.</p>,

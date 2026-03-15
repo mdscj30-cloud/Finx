@@ -55,12 +55,12 @@ const ComparisonPageTemplate = ({
         <meta property="article:author" content="FinxisAI Editorial Team" />
         
         <script type="application/ld+json">
-          {JSON.stringify(generateArticleSchema(pageTitle, pageDesc, "https://finxis.ai/og-image.jpg", publishedDate, "FinxisAI", canonicalUrl))}
+          {JSON.stringify(generateArticleSchema(pageTitle, pageDesc, "https://finxisai.com/og-image.jpg", publishedDate, "FinxisAI", canonicalUrl))}
         </script>
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-             { name: "Home", url: "https://finxis.ai" },
-             { name: "Comparisons", url: "https://finxis.ai/comparisons" },
+             { name: "Home", url: "https://finxisai.com" },
+             { name: "Comparisons", url: "https://finxisai.com/comparisons" },
              { name: pageTitle, url: canonicalUrl }
           ]))}
         </script>

@@ -31,12 +31,12 @@ const BlogCategoryPage = () => {
        <Helmet>
         <title>{categoryName} Financial Services Guides | FinxisAI Blog</title>
         <meta name="description" content={`Comprehensive guides and articles on financial services for ${categoryName}. Expert accounting, tax, and CFO insights.`} />
-        <link rel="canonical" href={`https://finxis.ai/blog/category/${category}`} />
+        <link rel="canonical" href={`https://finxisai.com/blog/category/${category}`} />
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-            { name: "Home", url: "https://finxis.ai" },
-            { name: "Blog", url: "https://finxis.ai/blog" },
-            { name: categoryName, url: `https://finxis.ai/blog/category/${category}` }
+            { name: "Home", url: "https://finxisai.com" },
+            { name: "Blog", url: "https://finxisai.com/blog" },
+            { name: categoryName, url: `https://finxisai.com/blog/category/${category}` }
           ]))}
         </script>
       </Helmet>

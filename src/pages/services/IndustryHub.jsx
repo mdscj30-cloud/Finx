@@ -75,12 +75,12 @@ const IndustryHub = () => {
       <Helmet>
         <title>Industry-Specific Financial Services | FinxisAI</title>
         <meta name="description" content="Explore FinxisAI's specialized accounting and bookkeeping services tailored for SaaS, E-Commerce, Healthcare, and Agencies." />
-        <link rel="canonical" href="https://finxis.ai/services/by-industry" />
+        <link rel="canonical" href="https://finxisai.com/services/by-industry" />
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-             { name: "Home", url: "https://finxis.ai" },
-             { name: "Services", url: "https://finxis.ai/services" },
-             { name: "By Industry", url: "https://finxis.ai/services/by-industry" }
+             { name: "Home", url: "https://finxisai.com" },
+             { name: "Services", url: "https://finxisai.com/services" },
+             { name: "By Industry", url: "https://finxisai.com/services/by-industry" }
           ]))}
         </script>
       </Helmet>

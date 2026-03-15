@@ -5,7 +5,7 @@ const AIEnabledVirtualCFOVsInHouse = () => {
   const data = {
     pageTitle: "AI-Enabled Virtual CFO vs. In-House CFO: Strategic Value",
     pageDesc: "Can a virtual service replace a C-suite executive?",
-    canonicalUrl: "https://finxis.ai/comparison/ai-enabled-virtual-cfo-vs-in-house",
+    canonicalUrl: "https://finxisai.com/comparison/ai-enabled-virtual-cfo-vs-in-house",
     introduction: <p>A CFO drives strategy. Virtual CFOs democratize this access.</p>,
     whatsDifference: {
       intro: <p>Access and Cost.</p>,

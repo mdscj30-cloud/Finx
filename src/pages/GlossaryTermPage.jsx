@@ -49,7 +49,7 @@ const GlossaryTermPage = () => {
         <title>{term.seoTitle || `${term.title} Definition`} | FinxisAI Glossary</title>
         <meta name="description" content={term.seoDescription || term.definition} />
         <meta name="keywords" content={term.seoKeywords} />
-        <link rel="canonical" href={`https://finxis.ai/glossary/${term.slug}`} />
+        <link rel="canonical" href={`https://finxisai.com/glossary/${term.slug}`} />
       </Helmet>
 
       <Header />

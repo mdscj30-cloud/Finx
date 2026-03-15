@@ -6,7 +6,7 @@ const TraditionalTaxPrepVsAITaxPlanning = () => {
     <ComparisonPageTemplate
       pageTitle="Traditional Tax Prep vs. AI Tax Planning: Saving vs. Filing"
       pageDesc="Understand the critical difference between paying someone to file your taxes and paying someone to lower your taxes using AI planning."
-      canonicalUrl="https://finxis.ai/comparison/traditional-tax-prep-vs-ai-tax-planning"
+      canonicalUrl="https://finxisai.com/comparison/traditional-tax-prep-vs-ai-tax-planning"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

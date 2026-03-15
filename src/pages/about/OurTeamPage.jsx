@@ -47,7 +47,7 @@ const OurTeamPage = () => {
       <Helmet>
         <title>Our Team & Advisors | Human Accountability | FinxisAI</title>
         <meta name="description" content="Meet the CPAs, financial experts, and technologists behind FinxisAI. We combine AI efficiency with human accountability to deliver superior financial services." />
-        <link rel="canonical" href="https://finxis.ai/about/team" />
+        <link rel="canonical" href="https://finxisai.com/about/team" />
         <script type="application/ld+json">
           {JSON.stringify(generateOrganizationSchema())}
         </script>

@@ -51,11 +51,11 @@ const GlossaryPage = () => {
         <title>Financial Glossary | Accounting Terms Defined - FinxisAI</title>
         <meta name="description" content="Master the language of finance with our comprehensive glossary. Detailed definitions for accounting, tax, and business terms like EBITDA, Burn Rate, and Accruals." />
         <meta name="keywords" content="financial glossary, accounting terms, business finance definitions, CPA terminology, EBITDA definition, working capital explanation" />
-        <link rel="canonical" href="https://finxis.ai/glossary" />
+        <link rel="canonical" href="https://finxisai.com/glossary" />
         
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://finxis.ai/glossary" />
+        <meta property="og:url" content="https://finxisai.com/glossary" />
         <meta property="og:title" content="FinxisAI Financial Glossary" />
         <meta property="og:description" content="Decode the language of finance. Comprehensive definitions for modern business." />
 

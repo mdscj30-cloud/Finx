@@ -26,7 +26,7 @@ const ServiceIndustryCTA = () => {
           </Button>
         </div>
         <p className="mt-8 text-sm text-slate-500">
-          Questions? Email us at <a href="mailto:industry@finxis.ai" className="text-blue-600 underline">industry@finxis.ai</a>
+          Questions? Email us at <a href="mailto:industry@finxisai.com" className="text-blue-600 underline">industry@finxisai.com</a>
         </p>
       </div>
     </section>

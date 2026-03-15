@@ -6,7 +6,7 @@ const FreelanceAccountantVsAIEnabledFirm = () => {
     <ComparisonPageTemplate
       pageTitle="Freelance Accountant vs. AI-Enabled Firm: Reliability Comparison"
       pageDesc="Choosing between a solo freelancer and a technology-backed firm. Evaluate reliability, expertise, and scalability risks."
-      canonicalUrl="https://finxis.ai/comparison/freelance-accountant-vs-ai-enabled-firm"
+      canonicalUrl="https://finxisai.com/comparison/freelance-accountant-vs-ai-enabled-firm"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

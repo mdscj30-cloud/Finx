@@ -57,7 +57,7 @@ const BlogPostPage = () => {
       <Helmet>
         <title>{post.title} | FinxisAI Blog</title>
         <meta name="description" content={post.metaDescription} />
-        <link rel="canonical" href={`https://finxis.ai/blog/${post.slug}`} />
+        <link rel="canonical" href={`https://finxisai.com/blog/${post.slug}`} />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>

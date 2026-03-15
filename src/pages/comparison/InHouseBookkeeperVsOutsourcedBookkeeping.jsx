@@ -6,7 +6,7 @@ const InHouseBookkeeperVsOutsourcedBookkeeping = () => {
     <ComparisonPageTemplate
       pageTitle="In-House Bookkeeper vs. Outsourced Bookkeeping: The SMB Guide"
       pageDesc="Compare the costs, reliability, and expertise of hiring a part-time/full-time bookkeeper versus hiring a professional bookkeeping service."
-      canonicalUrl="https://finxis.ai/comparison/in-house-bookkeeper-vs-outsourced-bookkeeping"
+      canonicalUrl="https://finxisai.com/comparison/in-house-bookkeeper-vs-outsourced-bookkeeping"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

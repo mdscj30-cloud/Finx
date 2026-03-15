@@ -5,7 +5,7 @@ const OutsourcedFinancialAdvisoryVsInternal = () => {
   const data = {
     pageTitle: "Outsourced Financial Advisory vs. Internal Analysis",
     pageDesc: "External perspective vs. internal knowledge.",
-    canonicalUrl: "https://finxis.ai/comparison/outsourced-financial-advisory-vs-internal",
+    canonicalUrl: "https://finxisai.com/comparison/outsourced-financial-advisory-vs-internal",
     introduction: <p>Sometimes you need an outside opinion to see the full picture.</p>,
     whatsDifference: {
       intro: <p>Perspective.</p>,

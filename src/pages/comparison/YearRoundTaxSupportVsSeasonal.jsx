@@ -6,7 +6,7 @@ const YearRoundTaxSupportVsSeasonal = () => {
   const data = {
     pageTitle: "Year-Round Tax Support vs. Seasonal Filing: Proactive vs. Reactive",
     pageDesc: "Understand the benefits of continuous tax planning versus the stress of the April deadline rush.",
-    canonicalUrl: "https://finxis.ai/comparison/year-round-tax-support-vs-seasonal",
+    canonicalUrl: "https://finxisai.com/comparison/year-round-tax-support-vs-seasonal",
     introduction: (
       <>
         <QuickAnswerBlock 

@@ -15,12 +15,12 @@ const LocationHub = () => {
       <Helmet>
         <title>Local Financial Services Expertise Across the USA | FinxisAI</title>
         <meta name="description" content="Find specialized accounting, bookkeeping, and tax services in your state. Comprehensive coverage across all 50 US states." />
-        <link rel="canonical" href="https://finxis.ai/services/by-location" />
+        <link rel="canonical" href="https://finxisai.com/services/by-location" />
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-             { name: "Home", url: "https://finxis.ai" },
-             { name: "Services", url: "https://finxis.ai/services" },
-             { name: "By Location", url: "https://finxis.ai/services/by-location" }
+             { name: "Home", url: "https://finxisai.com" },
+             { name: "Services", url: "https://finxisai.com/services" },
+             { name: "By Location", url: "https://finxisai.com/services/by-location" }
           ]))}
         </script>
       </Helmet>

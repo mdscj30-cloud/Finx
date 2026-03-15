@@ -6,7 +6,7 @@ const AIAssistedPayrollVsManual = () => {
   const data = {
     pageTitle: "AI-Assisted Payroll vs. Manual Processing: Efficiency & Compliance",
     pageDesc: "Compare automated payroll systems with manual entry methods.",
-    canonicalUrl: "https://finxis.ai/comparison/ai-assisted-payroll-vs-manual",
+    canonicalUrl: "https://finxisai.com/comparison/ai-assisted-payroll-vs-manual",
     introduction: (
       <>
         <QuickAnswerBlock 

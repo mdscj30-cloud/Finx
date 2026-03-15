@@ -5,7 +5,7 @@ const AIEnabledAccountingVsTraditionalFirms = () => {
   const data = {
     pageTitle: "AI-Enabled Accounting Firms vs. Traditional Firms",
     pageDesc: "How tech-forward firms deliver better value.",
-    canonicalUrl: "https://finxis.ai/comparison/ai-enabled-accounting-vs-traditional-firms",
+    canonicalUrl: "https://finxisai.com/comparison/ai-enabled-accounting-vs-traditional-firms",
     introduction: <p>Not all firms are created equal. Tech stacks matter.</p>,
     whatsDifference: {
       intro: <p>Efficiency and Proactivity.</p>,

@@ -6,7 +6,7 @@ const AIAssistedReconciliationVsManual = () => {
   const data = {
     pageTitle: "AI-Assisted Reconciliation vs. Manual Reconciliation: Closing the Books Faster",
     pageDesc: "Reconciliation is the bedrock of accurate financials. Compare how AI automates transaction matching versus the manual 'tick and tie' method.",
-    canonicalUrl: "https://finxis.ai/comparison/ai-assisted-reconciliation-vs-manual",
+    canonicalUrl: "https://finxisai.com/comparison/ai-assisted-reconciliation-vs-manual",
     introduction: (
       <>
         <QuickAnswerBlock 

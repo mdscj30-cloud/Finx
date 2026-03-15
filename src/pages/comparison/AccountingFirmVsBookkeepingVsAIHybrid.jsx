@@ -6,7 +6,7 @@ const AccountingFirmVsBookkeepingVsAIHybrid = () => {
     <ComparisonPageTemplate
       pageTitle="Accounting Firm vs. Bookkeeping Service vs. AI Hybrid: The Full Stack"
       pageDesc="Understanding the differences between traditional CPA firms, bookkeeping-only services, and the modern AI Hybrid model that combines both."
-      canonicalUrl="https://finxis.ai/comparison/accounting-firm-vs-bookkeeping-vs-ai-hybrid"
+      canonicalUrl="https://finxisai.com/comparison/accounting-firm-vs-bookkeeping-vs-ai-hybrid"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

@@ -6,7 +6,7 @@ const AIEnabledTaxSupportVsCPA = () => {
   const data = {
     pageTitle: "AI-Enabled Tax Support vs. Traditional CPA: Finding the Right Balance",
     pageDesc: "Compare the speed and efficiency of AI-driven tax support against the personalized strategy of a traditional CPA. Discover which model suits your business needs.",
-    canonicalUrl: "https://finxis.ai/comparison/ai-enabled-tax-support-vs-cpa",
+    canonicalUrl: "https://finxisai.com/comparison/ai-enabled-tax-support-vs-cpa",
     introduction: (
       <>
         <QuickAnswerBlock 

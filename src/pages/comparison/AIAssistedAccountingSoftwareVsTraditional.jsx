@@ -5,7 +5,7 @@ const AIAssistedAccountingSoftwareVsTraditional = () => {
   const data = {
     pageTitle: "AI-Assisted Accounting Software vs. Traditional Desktop Software",
     pageDesc: "Cloud + AI vs. Desktop + Manual.",
-    canonicalUrl: "https://finxis.ai/comparison/ai-assisted-accounting-software-vs-traditional",
+    canonicalUrl: "https://finxisai.com/comparison/ai-assisted-accounting-software-vs-traditional",
     introduction: <p>The shift from desktop to cloud AI is the biggest change in accounting history.</p>,
     whatsDifference: {
       intro: <p>Connectivity and Intelligence.</p>,

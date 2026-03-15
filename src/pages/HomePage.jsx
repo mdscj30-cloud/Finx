@@ -69,11 +69,11 @@ const HomePage = () => {
         title="FinxisAI | Financial Automation for CPAs & SMBs"
         description="Automate bookkeeping, tax prep, and financial reporting with FinxisAI. The all-in-one AI financial platform for CPAs and growing businesses."
         keywords="AI accounting, automated bookkeeping, CPA software, financial automation, virtual CFO, fintech, accounting AI"
-        url="https://finxis.ai/"
+        url="https://finxisai.com/"
         schema={[
           generateOrganizationSchema(),
           generateLocalBusinessSchema(),
-          generateBreadcrumbSchema([{ name: "Home", url: "https://finxis.ai" }])
+          generateBreadcrumbSchema([{ name: "Home", url: "https://finxisai.com" }])
         ]}
       />
 

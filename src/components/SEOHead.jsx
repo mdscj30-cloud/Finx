@@ -6,7 +6,7 @@ const SEOHead = ({
   title, 
   description, 
   keywords, 
-  image = "https://finxis.ai/og-image.jpg", 
+  image = "https://finxisai.com/og-image.jpg", 
   url, 
   type = "website", 
   schema 

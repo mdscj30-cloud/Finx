@@ -145,11 +145,11 @@ const ComparisonHub = () => {
       <Helmet>
         <title>Financial Service Comparisons | AI vs Traditional | FinxisAI</title>
         <meta name="description" content="Comprehensive comparisons of financial service models. Compare AI vs Offshore, In-House vs Outsourced, and Big 4 vs Modern Firms to make data-driven decisions." />
-        <link rel="canonical" href="https://finxis.ai/comparisons" />
+        <link rel="canonical" href="https://finxisai.com/comparisons" />
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-             { name: "Home", url: "https://finxis.ai" },
-             { name: "Comparisons", url: "https://finxis.ai/comparisons" }
+             { name: "Home", url: "https://finxisai.com" },
+             { name: "Comparisons", url: "https://finxisai.com/comparisons" }
           ]))}
         </script>
       </Helmet>

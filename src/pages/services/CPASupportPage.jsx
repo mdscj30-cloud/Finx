@@ -93,7 +93,7 @@ const CPASupportPage = () => {
         <title>CPA Support Services | FinxisAI</title>
         <meta name="description" content="Scale your CPA firm or finance department with FinxisAI's outsourced accounting services. AI-driven efficiency meets expert CPA oversight." />
         <meta name="keywords" content="CPA support, outsourced accounting, white label bookkeeping, accounting automation, finance outsourcing" />
-        <link rel="canonical" href="https://finxis.ai/services/cpa-support" />
+        <link rel="canonical" href="https://finxisai.com/services/cpa-support" />
       </Helmet>
 
       <Header />

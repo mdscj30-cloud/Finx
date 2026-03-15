@@ -6,7 +6,7 @@ const DIYAccountingSoftwareVsAIEnabledServices = () => {
     <ComparisonPageTemplate
       pageTitle="DIY Accounting Software vs. AI-Enabled Services: The Founder's Dilemma"
       pageDesc="Compare the true cost of 'Do It Yourself' accounting using software like QuickBooks versus hiring an AI-enabled professional service."
-      canonicalUrl="https://finxis.ai/comparison/diy-accounting-software-vs-ai-enabled-services"
+      canonicalUrl="https://finxisai.com/comparison/diy-accounting-software-vs-ai-enabled-services"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

@@ -20,7 +20,7 @@ const DataSecurityPage = () => {
       <Helmet>
         <title>Data Security & Compliance | FinxisAI</title>
         <meta name="description" content="FinxisAI employs bank-grade security, SOC 2 Type II compliance, and strict data protection protocols. Learn how we safeguard your financial information." />
-        <link rel="canonical" href="https://finxis.ai/about/data-security" />
+        <link rel="canonical" href="https://finxisai.com/about/data-security" />
         <script type="application/ld+json">
           {JSON.stringify(generateOrganizationSchema())}
         </script>

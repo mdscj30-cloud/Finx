@@ -5,7 +5,7 @@ const VirtualCFOVsFractionalCFO = () => {
   const data = {
     pageTitle: "Virtual CFO vs. Fractional CFO: What's the Difference?",
     pageDesc: "Clarifying the terminology between tech-enabled and time-based services.",
-    canonicalUrl: "https://finxis.ai/comparison/virtual-cfo-vs-fractional-cfo",
+    canonicalUrl: "https://finxisai.com/comparison/virtual-cfo-vs-fractional-cfo",
     introduction: <p>These terms are often used interchangeably, but there's a nuance.</p>,
     whatsDifference: {
       intro: <p>Tech vs. Time.</p>,

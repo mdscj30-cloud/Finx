@@ -64,7 +64,7 @@ const CpaBlogPostPage = () => {
         <title>{post.title} | FinxisAI CPA Insights</title>
         <meta name="description" content={post.metaDescription} />
         <meta name="author" content={post.author.name} />
-        <link rel="canonical" href={`https://finxis.ai/blog/cpa/${post.slug}`} />
+        <link rel="canonical" href={`https://finxisai.com/blog/cpa/${post.slug}`} />
       </Helmet>
 
       <Header />

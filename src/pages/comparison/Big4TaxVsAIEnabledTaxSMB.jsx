@@ -6,7 +6,7 @@ const Big4TaxVsAIEnabledTaxSMB = () => {
     <ComparisonPageTemplate
       pageTitle="Big 4 Tax Prep vs. AI-Enabled Tax Planning: ROI Analysis"
       pageDesc="Compare the reactive, high-cost tax filing of Big 4 firms against the proactive, AI-driven tax planning strategies used by modern firms."
-      canonicalUrl="https://finxis.ai/comparison/big-4-tax-vs-ai-enabled-tax-smb"
+      canonicalUrl="https://finxisai.com/comparison/big-4-tax-vs-ai-enabled-tax-smb"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

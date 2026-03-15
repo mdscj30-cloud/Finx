@@ -6,7 +6,7 @@ const SpreadsheetAccountingVsAIEnabled = () => {
     <ComparisonPageTemplate
       pageTitle="Spreadsheet Accounting vs. AI-Enabled Accounting: Moving Past Excel"
       pageDesc="Why manual spreadsheets are holding your business back and how AI accounting offers a safer, scalable alternative."
-      canonicalUrl="https://finxis.ai/comparison/spreadsheet-accounting-vs-ai-enabled"
+      canonicalUrl="https://finxisai.com/comparison/spreadsheet-accounting-vs-ai-enabled"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

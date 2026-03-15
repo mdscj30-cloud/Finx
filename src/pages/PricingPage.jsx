@@ -217,20 +217,20 @@ const PricingPage = () => {
         <title>Pricing Plans | FinxisAI</title>
         <meta name="description" content="Transparent pricing for AI bookkeeping, tax preparation, and Virtual CFO services. Scalable plans for startups and agencies." />
         <meta name="keywords" content="bookkeeping pricing, accounting software cost, virtual CFO rates, tax preparation fees, payroll pricing" />
-        <link rel="canonical" href="https://finxis.ai/pricing" />
+        <link rel="canonical" href="https://finxisai.com/pricing" />
         
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://finxis.ai/pricing" />
+        <meta property="og:url" content="https://finxisai.com/pricing" />
         <meta property="og:title" content="FinxisAI Pricing - Transparent & Scalable" />
         <meta property="og:description" content="Choose the perfect plan for your business. From automated bookkeeping to full-service CFO support." />
-        <meta property="og:image" content="https://finxis.ai/images/pricing-og.jpg" />
+        <meta property="og:image" content="https://finxisai.com/images/pricing-og.jpg" />
 
         {/* Schema */}
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-             { name: "Home", url: "https://finxis.ai" },
-             { name: "Pricing", url: "https://finxis.ai/pricing" }
+             { name: "Home", url: "https://finxisai.com" },
+             { name: "Pricing", url: "https://finxisai.com/pricing" }
           ]))}
         </script>
         <script type="application/ld+json">

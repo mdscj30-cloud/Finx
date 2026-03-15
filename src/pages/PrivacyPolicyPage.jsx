@@ -22,11 +22,11 @@ const PrivacyPolicyPage = () => {
         <title>Privacy Policy | FinxisAI Data Protection</title>
         <meta name="description" content="Read the FinxisAI privacy policy to understand how we collect, use, and protect your personal and financial data. Your security is our priority." />
         <meta name="keywords" content="privacy policy, data protection, GDPR compliance, financial data security" />
-        <link rel="canonical" href="https://finxis.ai/privacy-policy" />
+        <link rel="canonical" href="https://finxisai.com/privacy-policy" />
         
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://finxis.ai/privacy-policy" />
+        <meta property="og:url" content="https://finxisai.com/privacy-policy" />
         <meta property="og:title" content="FinxisAI Privacy Policy" />
         <meta property="og:description" content="How we protect your data." />
 
@@ -48,7 +48,7 @@ const PrivacyPolicyPage = () => {
 
             <article className="prose lg:prose-lg max-w-none text-slate-700 leading-relaxed">
               <p>
-                FinxisAI ("us", "we", or "our") operates the https://finxis.ai website (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+                FinxisAI ("us", "we", or "our") operates the https://finxisai.com website (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
               </p>
 
               <h2 className="font-display font-bold mt-12 mb-4 text-3xl">Information Collection and Use</h2>

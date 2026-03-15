@@ -6,7 +6,7 @@ const InHousePayrollVsOutsourcedPayroll = () => {
     <ComparisonPageTemplate
       pageTitle="In-House Payroll vs. Outsourced Payroll: Risk & Compliance Check"
       pageDesc="A critical look at the risks of managing payroll internally versus the benefits and costs of outsourcing to a specialized provider."
-      canonicalUrl="https://finxis.ai/comparison/in-house-payroll-vs-outsourced-payroll"
+      canonicalUrl="https://finxisai.com/comparison/in-house-payroll-vs-outsourced-payroll"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

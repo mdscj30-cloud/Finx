@@ -93,7 +93,7 @@ const VirtualCFOPage = () => {
 <title>Virtual CFO Services | Strategic Financial Leadership | FinxisAI</title>
         <meta name="description" content="Get high-level financial strategy without the full-time cost. FinxisAI's Virtual CFO services provide forecasting, budgeting, and growth planning powered by AI." />
         <meta name="keywords" content="Virtual CFO, fractional CFO, financial forecasting, startup finance, strategic planning, cash flow management" />
-        <link rel="canonical" href="https://finxis.ai/services/virtual-cfo" />
+        <link rel="canonical" href="https://finxisai.com/services/virtual-cfo" />
       </Helmet>
 
       <Header />

@@ -6,7 +6,7 @@ const VirtualCFOVsOffshoreFinanceTeams = () => {
     <ComparisonPageTemplate
       pageTitle="Virtual CFO vs. Offshore Finance Teams: Strategic Value Comparison"
       pageDesc="Choosing between high-level domestic expertise and low-cost offshore staffing for financial strategy and growth planning."
-      canonicalUrl="https://finxis.ai/comparison/virtual-cfo-vs-offshore-finance-teams"
+      canonicalUrl="https://finxisai.com/comparison/virtual-cfo-vs-offshore-finance-teams"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

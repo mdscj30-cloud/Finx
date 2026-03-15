@@ -93,7 +93,7 @@ const TaxPreparationPage = () => {
         <title>AI Tax Preparation Services | FinxisAI</title>
         <meta name="description" content="Maximize your tax savings with FinxisAI. AI-powered deduction finding combined with expert CPA filing for error-free tax returns." />
         <meta name="keywords" content="tax preparation, AI tax software, business tax filing, CPA tax services, tax planning" />
-        <link rel="canonical" href="https://finxis.ai/services/tax-preparation" />
+        <link rel="canonical" href="https://finxisai.com/services/tax-preparation" />
       </Helmet>
 
       <Header />

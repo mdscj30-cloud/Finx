@@ -14,20 +14,20 @@ const ContactPage = () => {
         <title>Contact FinxisAI | Support & Sales</title>
         <meta name="description" content="Get in touch with FinxisAI. Request a demo, get support, or partner with us to transform your financial workflows." />
         <meta name="keywords" content="contact FinxisAI, customer support, sales inquiry, fintech support" />
-        <link rel="canonical" href="https://finxis.ai/contact" />
+        <link rel="canonical" href="https://finxisai.com/contact" />
         
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://finxis.ai/contact" />
+        <meta property="og:url" content="https://finxisai.com/contact" />
         <meta property="og:title" content="Contact FinxisAI" />
         <meta property="og:description" content="We're here to help. Reach out to our team today." />
-        <meta property="og:image" content="https://finxis.ai/images/contact-og.jpg" />
+        <meta property="og:image" content="https://finxisai.com/images/contact-og.jpg" />
 
         {/* Schema */}
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-             { name: "Home", url: "https://finxis.ai" },
-             { name: "Contact", url: "https://finxis.ai/contact" }
+             { name: "Home", url: "https://finxisai.com" },
+             { name: "Contact", url: "https://finxisai.com/contact" }
           ]))}
         </script>
         <script type="application/ld+json">

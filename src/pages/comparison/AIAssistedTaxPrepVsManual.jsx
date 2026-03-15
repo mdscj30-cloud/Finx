@@ -6,7 +6,7 @@ const AIAssistedTaxPrepVsManual = () => {
   const data = {
     pageTitle: "AI-Assisted Tax Preparation vs. Manual Tax Preparation",
     pageDesc: "Compare the benefits of AI-driven tax deduction discovery and filing accuracy against traditional manual preparation methods.",
-    canonicalUrl: "https://finxis.ai/comparison/ai-assisted-tax-prep-vs-manual",
+    canonicalUrl: "https://finxisai.com/comparison/ai-assisted-tax-prep-vs-manual",
     introduction: (
       <>
         <QuickAnswerBlock 

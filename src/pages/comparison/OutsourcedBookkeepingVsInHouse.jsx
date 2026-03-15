@@ -6,7 +6,7 @@ const OutsourcedBookkeepingVsInHouse = () => {
   const data = {
     pageTitle: "Outsourced Bookkeeping vs. In-House Bookkeeper: A Comprehensive Cost & Control Analysis",
     pageDesc: "Deciding between hiring an employee or partnering with an outsourced service? We compare the true costs, risks, and scalability of both models for growing businesses.",
-    canonicalUrl: "https://finxis.ai/comparison/outsourced-bookkeeping-vs-in-house",
+    canonicalUrl: "https://finxisai.com/comparison/outsourced-bookkeeping-vs-in-house",
     introduction: (
       <>
         <QuickAnswerBlock 

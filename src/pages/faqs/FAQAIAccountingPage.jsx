@@ -127,7 +127,7 @@ const FAQAIAccountingPage = () => {
       <Helmet>
         <title>AI in Accounting & Financial Services – FAQs | FinxisAI</title>
         <meta name="description" content="Common questions about AI in accounting, accuracy, security, and the future of the CPA profession. Learn how FinxisAI combines automation with human expertise." />
-        <link rel="canonical" href="https://finxis.ai/faqs/ai-accounting" />
+        <link rel="canonical" href="https://finxisai.com/faqs/ai-accounting" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI in Accounting & Financial Services – FAQs | FinxisAI" />
         <meta property="og:description" content="Explore the definitive guide to AI in accounting. Answers to top 20 questions about security, automation, and the role of CPAs." />
@@ -138,9 +138,9 @@ const FAQAIAccountingPage = () => {
         </script>
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-            { name: "Home", url: "https://finxis.ai" },
-            { name: "Resources", url: "https://finxis.ai/resources" },
-            { name: "AI Accounting FAQs", url: "https://finxis.ai/faqs/ai-accounting" }
+            { name: "Home", url: "https://finxisai.com" },
+            { name: "Resources", url: "https://finxisai.com/resources" },
+            { name: "AI Accounting FAQs", url: "https://finxisai.com/faqs/ai-accounting" }
           ]))}
         </script>
       </Helmet>

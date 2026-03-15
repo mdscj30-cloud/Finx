@@ -30,8 +30,8 @@ export const useSchemaMarkup = ({
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "FinxisAI",
-        "url": "https://finxis.ai",
-        "logo": "https://finxis.ai/logo.png",
+        "url": "https://finxisai.com",
+        "logo": "https://finxisai.com/logo.png",
         "sameAs": [
           "https://twitter.com/finxisai",
           "https://linkedin.com/company/finxisai"
@@ -46,9 +46,9 @@ export const useSchemaMarkup = ({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "FinxisAI",
-        "image": "https://finxis.ai/logo.png",
-        "@id": "https://finxis.ai",
-        "url": "https://finxis.ai",
+        "image": "https://finxisai.com/logo.png",
+        "@id": "https://finxisai.com",
+        "url": "https://finxisai.com",
         "telephone": "+18005550199",
         "address": {
           "@type": "PostalAddress",
@@ -97,7 +97,7 @@ export const useSchemaMarkup = ({
           "name": "FinxisAI",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://finxis.ai/logo.png"
+            "url": "https://finxisai.com/logo.png"
           }
         },
         ...article

@@ -5,7 +5,7 @@ const AIAssistedForecastingVsManual = () => {
   const data = {
     pageTitle: "AI-Assisted Forecasting vs. Manual Excel Modeling",
     pageDesc: "Move beyond static spreadsheets to dynamic, predictive financial modeling.",
-    canonicalUrl: "https://finxis.ai/comparison/ai-assisted-forecasting-vs-manual",
+    canonicalUrl: "https://finxisai.com/comparison/ai-assisted-forecasting-vs-manual",
     introduction: <p>The future is uncertain. AI helps predict it better than static formulas.</p>,
     whatsDifference: {
       intro: <p>Static vs. Dynamic.</p>,

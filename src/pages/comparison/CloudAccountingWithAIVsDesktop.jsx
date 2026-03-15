@@ -5,7 +5,7 @@ const CloudAccountingWithAIVsDesktop = () => {
   const data = {
     pageTitle: "Cloud Accounting with AI vs. Desktop Accounting",
     pageDesc: "Why the industry has moved to the cloud.",
-    canonicalUrl: "https://finxis.ai/comparison/cloud-accounting-with-ai-vs-desktop",
+    canonicalUrl: "https://finxisai.com/comparison/cloud-accounting-with-ai-vs-desktop",
     introduction: <p>Accessibility and automation define the modern era.</p>,
     whatsDifference: {
       intro: <p>Location of data.</p>,

@@ -6,7 +6,7 @@ const Big4VsAIEnabledAccountingSMB = () => {
     <ComparisonPageTemplate
       pageTitle="Big 4 vs. AI-Enabled Accounting Firms: The SMB Choice"
       pageDesc="Why small and mid-sized businesses are choosing agile, AI-enabled firms over expensive Big 4 legacy providers."
-      canonicalUrl="https://finxis.ai/comparison/big-4-vs-ai-enabled-accounting-smb"
+      canonicalUrl="https://finxisai.com/comparison/big-4-vs-ai-enabled-accounting-smb"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

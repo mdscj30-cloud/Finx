@@ -129,7 +129,7 @@ const BlogListPage = () => {
       <Helmet>
         <title>FinxisAI Blog | Finance & AI Insights</title>
         <meta name="description" content="Expert guides on AI accounting, tax strategy, and business finance. Stay ahead with insights from FinxisAI's financial team." />
-        <link rel="canonical" href="https://finxis.ai/blog" />
+        <link rel="canonical" href="https://finxisai.com/blog" />
       </Helmet>
       
       <Header />

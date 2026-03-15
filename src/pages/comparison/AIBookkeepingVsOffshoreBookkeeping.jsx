@@ -6,7 +6,7 @@ const AIBookkeepingVsOffshoreBookkeeping = () => {
     <ComparisonPageTemplate
       pageTitle="AI Bookkeeping vs. Offshore Bookkeeping: Accuracy & Speed Comparison"
       pageDesc="A deep dive into the operational differences between automated AI bookkeeping and human-powered offshore bookkeeping services."
-      canonicalUrl="https://finxis.ai/comparison/ai-bookkeeping-vs-offshore-bookkeeping"
+      canonicalUrl="https://finxisai.com/comparison/ai-bookkeeping-vs-offshore-bookkeeping"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

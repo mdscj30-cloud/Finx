@@ -5,7 +5,7 @@ const AIAssistedFinancialServicesVsManual = () => {
   const data = {
     pageTitle: "AI-Assisted Financial Services vs. Manual Processes",
     pageDesc: "The broad impact of AI on financial operations.",
-    canonicalUrl: "https://finxis.ai/comparison/ai-assisted-financial-services-vs-manual",
+    canonicalUrl: "https://finxisai.com/comparison/ai-assisted-financial-services-vs-manual",
     introduction: <p>From lending to investing, AI is changing finance.</p>,
     whatsDifference: {
       intro: <p>Data processing speed.</p>,

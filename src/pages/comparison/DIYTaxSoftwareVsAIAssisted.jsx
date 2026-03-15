@@ -6,7 +6,7 @@ const DIYTaxSoftwareVsAIAssisted = () => {
   const data = {
     pageTitle: "DIY Tax Software vs. AI-Assisted Tax Prep: Which is Safer?",
     pageDesc: "Analyze the risks of manual entry in DIY software versus the automated accuracy of AI-assisted preparation.",
-    canonicalUrl: "https://finxis.ai/comparison/diy-tax-software-vs-ai-assisted",
+    canonicalUrl: "https://finxisai.com/comparison/diy-tax-software-vs-ai-assisted",
     introduction: (
       <>
         <QuickAnswerBlock 

@@ -2,8 +2,8 @@ export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "FinxisAI",
-  "url": "https://finxis.ai",
-  "logo": "https://finxis.ai/logo.png",
+  "url": "https://finxisai.com",
+  "logo": "https://finxisai.com/logo.png",
   "sameAs": [
     "https://www.linkedin.com/company/finxisai",
     "https://twitter.com/finxisai",
@@ -22,7 +22,7 @@ export const generateLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "FinxisAI",
-  "image": "https://finxis.ai/logo.png",
+  "image": "https://finxisai.com/logo.png",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "PO Box 830",
@@ -38,7 +38,7 @@ export const generateLocalBusinessSchema = () => ({
     "opens": "09:00",
     "closes": "17:00"
   },
-  "url": "https://finxis.ai"
+  "url": "https://finxisai.com"
 });
 
 export const generateServiceSchema = (serviceName, description, provider = "FinxisAI") => ({
@@ -49,7 +49,7 @@ export const generateServiceSchema = (serviceName, description, provider = "Finx
   "provider": {
     "@type": "Organization",
     "name": provider,
-    "url": "https://finxis.ai"
+    "url": "https://finxisai.com"
   }
 });
 
@@ -62,7 +62,7 @@ export const generateComprehensiveServiceSchema = (serviceName, description, pro
   "provider": {
     "@type": "Organization",
     "name": provider,
-    "url": "https://finxis.ai"
+    "url": "https://finxisai.com"
   },
   "areaServed": {
     "@type": "Country",
@@ -104,7 +104,7 @@ export const generateArticleSchema = (title, description, image, datePublished, 
     "name": "FinxisAI",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://finxis.ai/logo.png"
+      "url": "https://finxisai.com/logo.png"
     }
   },
   "mainEntityOfPage": {
@@ -180,7 +180,7 @@ export const generatePageTitle = (primary, secondary = "FinxisAI", maxLength = 6
 };
 
 export const generateCanonicalUrl = (pathname) => {
-  const baseUrl = "https://finxis.ai";
+  const baseUrl = "https://finxisai.com";
   return `${baseUrl}${pathname.startsWith('/') ? pathname : '/' + pathname}`;
 };
 

@@ -6,7 +6,7 @@ const InHouseAccountantVsOutsourcedAccounting = () => {
     <ComparisonPageTemplate
       pageTitle="In-House Accountant vs. Outsourced Accounting: Efficiency & Cost Guide"
       pageDesc="Evaluate the trade-offs between hiring an internal accountant and partnering with an outsourced accounting firm for your growing business."
-      canonicalUrl="https://finxis.ai/comparison/in-house-accountant-vs-outsourced-accounting"
+      canonicalUrl="https://finxisai.com/comparison/in-house-accountant-vs-outsourced-accounting"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

@@ -57,11 +57,11 @@ const BlogPage = () => {
       <Helmet>
         <title>FinxisAI Blog | Expert Financial Insights & Tax Strategies</title>
         <meta name="description" content="Read expert articles on AI bookkeeping, tax strategies, CPA firm growth, and virtual CFO insights. Stay ahead with FinxisAI." />
-        <link rel="canonical" href="https://finxis.ai/blog" />
+        <link rel="canonical" href="https://finxisai.com/blog" />
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-            { name: "Home", url: "https://finxis.ai" },
-            { name: "Blog", url: "https://finxis.ai/blog" }
+            { name: "Home", url: "https://finxisai.com" },
+            { name: "Blog", url: "https://finxisai.com/blog" }
           ]))}
         </script>
       </Helmet>

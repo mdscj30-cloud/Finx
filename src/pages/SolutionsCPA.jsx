@@ -52,12 +52,12 @@ const SolutionsCPA = () => {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://finxis.ai/"
+      "item": "https://finxisai.com/"
     },{
       "@type": "ListItem",
       "position": 2,
       "name": "Solutions for CPAs",
-      "item": "https://finxis.ai/solutions/cpa"
+      "item": "https://finxisai.com/solutions/cpa"
     }]
   };
 
@@ -67,14 +67,14 @@ const SolutionsCPA = () => {
         <title>AI Accounting Software for CPA Firms | FinxisAI</title>
         <meta name="description" content="Empower your CPA firm with FinxisAI. Automate bookkeeping, streamline client management, and scale your advisory services with our AI-powered platform." />
         <meta name="keywords" content="CPA software, accounting practice management, automated bookkeeping for accountants, client portal for CPAs, AI accounting tools" />
-        <link rel="canonical" href="https://finxis.ai/solutions/cpa" />
+        <link rel="canonical" href="https://finxisai.com/solutions/cpa" />
         
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://finxis.ai/solutions/cpa" />
+        <meta property="og:url" content="https://finxisai.com/solutions/cpa" />
         <meta property="og:title" content="FinxisAI for CPAs - Automate Your Practice" />
         <meta property="og:description" content="Stop chasing paperwork. Start driving strategy. The operating system for modern accounting firms." />
-        <meta property="og:image" content="https://finxis.ai/images/cpa-dashboard-og.jpg" />
+        <meta property="og:image" content="https://finxisai.com/images/cpa-dashboard-og.jpg" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

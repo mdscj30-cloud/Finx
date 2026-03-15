@@ -56,7 +56,7 @@ const LoginPage = () => {
   };
   
     const handleDemoLogin = (demoRole) => {
-        const demoEmail = demoRole === 'CPA' ? 'cpa-demo@finxis.ai' : 'client-demo@finxis.ai';
+        const demoEmail = demoRole === 'CPA' ? 'cpa-demo@finxisai.com' : 'client-demo@finxisai.com';
         const demoPassword = 'password';
         setEmail(demoEmail);
         setPassword(demoPassword);

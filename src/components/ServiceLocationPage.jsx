@@ -57,21 +57,21 @@ const ServiceLocationPage = () => {
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={metaDesc} />
-        <link rel="canonical" href={`https://finxis.ai/services/${path}`} />
+        <link rel="canonical" href={`https://finxisai.com/services/${path}`} />
         <script type="application/ld+json">
           {JSON.stringify(generateComprehensiveServiceSchema(
             hero.headline,
             metaDesc,
             "FinxisAI",
-            `https://finxis.ai/services/${path}`
+            `https://finxisai.com/services/${path}`
           ))}
         </script>
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-             { name: "Home", url: "https://finxis.ai" },
-             { name: "Services", url: "https://finxis.ai/services" },
-             { name: location, url: `https://finxis.ai/services/by-location` },
-             { name: serviceType, url: `https://finxis.ai/services/${path}` }
+             { name: "Home", url: "https://finxisai.com" },
+             { name: "Services", url: "https://finxisai.com/services" },
+             { name: location, url: `https://finxisai.com/services/by-location` },
+             { name: serviceType, url: `https://finxisai.com/services/${path}` }
           ]))}
         </script>
       </Helmet>

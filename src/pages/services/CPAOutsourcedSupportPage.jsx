@@ -125,20 +125,20 @@ const CPAOutsourcedSupportPage = () => {
         <title>Outsourced Accounting Support for CPA Firms | FinxisAI</title>
         <meta name="description" content="Scale your CPA firm without adding overhead. FinxisAI provides outsourced accounting and tax prep support, allowing you to focus on growth and advisory." />
         <meta name="keywords" content="outsourced accounting for CPAs, CPA firm support, tax prep outsourcing, accounting back office, white label accounting" />
-        <link rel="canonical" href="https://finxis.ai/services/cpa-outsourced-support" />
+        <link rel="canonical" href="https://finxisai.com/services/cpa-outsourced-support" />
         <script type="application/ld+json">
           {JSON.stringify(generateComprehensiveServiceSchema(
             "Outsourced Accounting Support",
             "Scalable back-office accounting and tax preparation support services specifically for CPA firms.",
             "FinxisAI",
-            "https://finxis.ai/services/cpa-outsourced-support"
+            "https://finxisai.com/services/cpa-outsourced-support"
           ))}
         </script>
         <script type="application/ld+json">
           {JSON.stringify(generateBreadcrumbSchema([
-             { name: "Home", url: "https://finxis.ai" },
-             { name: "Services", url: "https://finxis.ai/services" },
-             { name: "Outsourced Support", url: "https://finxis.ai/services/cpa-outsourced-support" }
+             { name: "Home", url: "https://finxisai.com" },
+             { name: "Services", url: "https://finxisai.com/services" },
+             { name: "Outsourced Support", url: "https://finxisai.com/services/cpa-outsourced-support" }
           ]))}
         </script>
       </Helmet>
@@ -446,7 +446,7 @@ const CPAOutsourcedSupportPage = () => {
                 </Button>
              </div>
              <p className="mt-8 text-sm text-indigo-300">
-               Questions? Call us at (800) 555-0199 or email <a href="mailto:partners@finxis.ai" className="text-white underline">partners@finxis.ai</a>
+               Questions? Call us at (800) 555-0199 or email <a href="mailto:partners@finxisai.com" className="text-white underline">partners@finxisai.com</a>
              </p>
           </div>
         </section>

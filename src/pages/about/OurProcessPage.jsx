@@ -78,7 +78,7 @@ const OurProcessPage = () => {
       <Helmet>
         <title>Our Human-Led AI Process | FinxisAI</title>
         <meta name="description" content="Explore FinxisAI's rigorous 5-step financial process. We combine secure data collection and AI efficiency with expert human oversight to ensure accuracy and compliance." />
-        <link rel="canonical" href="https://finxis.ai/about/our-process" />
+        <link rel="canonical" href="https://finxisai.com/about/our-process" />
         <script type="application/ld+json">
           {JSON.stringify(generateOrganizationSchema())}
         </script>

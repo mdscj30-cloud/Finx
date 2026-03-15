@@ -36,7 +36,7 @@ const CountryPageLayout = ({
         <title>{meta.title}</title>
         <meta name="description" content={meta.description} />
         <meta name="keywords" content={meta.keywords} />
-        <link rel="canonical" href={`https://finxis.ai/${countryName.toLowerCase().replace(/\s+/g, '-')}`} />
+        <link rel="canonical" href={`https://finxisai.com/${countryName.toLowerCase().replace(/\s+/g, '-')}`} />
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
         </script>

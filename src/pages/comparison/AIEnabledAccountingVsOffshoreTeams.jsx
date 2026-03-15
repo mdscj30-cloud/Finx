@@ -6,7 +6,7 @@ const AIEnabledAccountingVsOffshoreTeams = () => {
     <ComparisonPageTemplate
       pageTitle="AI-Enabled Accounting vs. Offshore Teams: A Strategic Cost-Benefit Analysis"
       pageDesc="Compare the hidden costs, communication challenges, and quality differences between hiring cheap offshore teams and using US-based, AI-enabled accounting firms."
-      canonicalUrl="https://finxis.ai/comparison/ai-enabled-accounting-vs-offshore-teams"
+      canonicalUrl="https://finxisai.com/comparison/ai-enabled-accounting-vs-offshore-teams"
       publishedDate="2024-03-01T08:00:00+00:00"
       introduction={
         <>

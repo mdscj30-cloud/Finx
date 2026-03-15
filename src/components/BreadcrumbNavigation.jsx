@@ -18,7 +18,7 @@ const BreadcrumbNavigation = ({ customItems }) => {
       "@type": "ListItem",
       "position": index + 1,
       "name": item.label,
-      "item": `https://finxis.ai${item.path}`
+      "item": `https://finxisai.com${item.path}`
     }))
   };
 

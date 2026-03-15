@@ -6,10 +6,10 @@ import { generateBreadcrumbSchema } from '@/lib/seoHelpers';
 
 const ServiceIndustryBreadcrumb = ({ serviceName, industryName, serviceSlug, industrySlug }) => {
   const breadcrumbs = [
-    { name: "Home", url: "https://finxis.ai" },
-    { name: "Services", url: "https://finxis.ai/services" },
-    { name: serviceName, url: `https://finxis.ai/services/${serviceSlug}` },
-    { name: industryName, url: `https://finxis.ai/services/${serviceSlug}/${industrySlug}` }
+    { name: "Home", url: "https://finxisai.com" },
+    { name: "Services", url: "https://finxisai.com/services" },
+    { name: serviceName, url: `https://finxisai.com/services/${serviceSlug}` },
+    { name: industryName, url: `https://finxisai.com/services/${serviceSlug}/${industrySlug}` }
   ];
 
   return (

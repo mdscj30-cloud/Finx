@@ -9,4 +9,4 @@ Disallow: /login
 Disallow: /quickbooks-callback
 
 # Sitemap location
-Sitemap: https://finxis.ai/sitemap.xml
+Sitemap: https://finxisai.com/sitemap.xml
