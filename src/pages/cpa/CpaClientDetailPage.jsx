@@ -277,6 +277,7 @@ const CpaClientDetailPage = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>{client.name} - Client Details</title>
       </Helmet>
       <div className="p-6 lg:p-8">

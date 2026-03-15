@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow private portal & auth routes
+Disallow: /client/
+Disallow: /cpa/
+Disallow: /onboarding
+Disallow: /login
+Disallow: /quickbooks-callback
+
+# Sitemap location
+Sitemap: https://finxis.ai/sitemap.xml

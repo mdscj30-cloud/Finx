@@ -160,6 +160,7 @@ const CpaDashboard = () => {
   return (
     <div className={`min-h-screen ${darkMode ? 'bg-slate-900 text-white' : 'bg-slate-50 text-slate-900'}`}>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>CPA Dashboard - FinxisAI</title>
         <meta name="description" content="Comprehensive CPA firm management dashboard with client tracking, task management, and financial insights." />
       </Helmet>

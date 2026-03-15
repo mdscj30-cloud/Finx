@@ -71,6 +71,7 @@ const CpaTasksPage = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>All Tasks - FinxisAI</title>
       </Helmet>
       <div className="p-6 lg:p-8">

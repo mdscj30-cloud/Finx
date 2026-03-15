@@ -113,6 +113,7 @@ const ClientDashboard = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>Professional Dashboard - FinxisAI Client Portal</title>
       </Helmet>
       <CPAViewModal isOpen={isCpaModalOpen} onClose={() => setIsCpaModalOpen(false)} />

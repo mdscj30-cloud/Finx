@@ -52,6 +52,7 @@ const ClientBillingPage = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>Billing - FinxisAI Client Portal</title>
       </Helmet>
       <main className="flex-grow p-8 bg-slate-50">

@@ -22,6 +22,7 @@ const CpaActivityPage = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>Work Activity - FinxisAI</title>
       </Helmet>
       <div className="p-6 lg:p-8">

@@ -46,6 +46,7 @@ const OnboardingPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>Get Started with FinxisAI | Onboarding</title>
         <meta name="description" content="Start your journey with FinxisAI. Configure your AI bookkeeping and financial automation package in minutes." />
       </Helmet>

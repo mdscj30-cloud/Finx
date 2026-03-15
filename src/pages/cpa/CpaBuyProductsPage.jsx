@@ -98,6 +98,7 @@ const CpaBuyProductsPage = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>Buy Products - FinxisAI</title>
       </Helmet>
       <div className="p-6 lg:p-8">

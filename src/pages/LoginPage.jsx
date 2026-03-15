@@ -66,6 +66,7 @@ const LoginPage = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>Login - FinxisAI</title>
       </Helmet>
       <div className="min-h-screen w-full flex items-center justify-center bg-slate-100 p-4">

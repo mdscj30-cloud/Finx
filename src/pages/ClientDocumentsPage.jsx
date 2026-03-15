@@ -376,7 +376,8 @@ const ClientDocumentsPage = () => {
 
   return (
     <>
-      <Helmet><title>Documents - FinxisAI</title></Helmet>
+      <Helmet>
+      <meta name="robots" content="noindex, nofollow" /><title>Documents - FinxisAI</title></Helmet>
       <main className="flex-grow p-4 sm:p-8 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8">
           <div>

@@ -80,6 +80,7 @@ const ClientReportsPage = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>Reports - FinxisAI Client Portal</title>
       </Helmet>
       <main className="flex-grow p-8">

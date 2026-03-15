@@ -28,8 +28,14 @@ const SEOHead = ({
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
 
+      {/* Open Graph image dimensions */}
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@finxisai" />
+      <meta name="twitter:creator" content="@finxisai" />
       <meta name="twitter:url" content={url} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />

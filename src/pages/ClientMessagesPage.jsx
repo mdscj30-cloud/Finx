@@ -159,6 +159,7 @@ const ClientMessagesPage = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>Messages - FinxisAI Client Portal</title>
       </Helmet>
       <main className="flex-grow flex flex-col h-screen bg-slate-50">

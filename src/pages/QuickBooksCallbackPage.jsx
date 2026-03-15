@@ -90,6 +90,7 @@ const QuickBooksCallbackPage = () => {
   return (
     <>
       <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
         <title>Connecting to QuickBooks...</title>
       </Helmet>
       <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50">

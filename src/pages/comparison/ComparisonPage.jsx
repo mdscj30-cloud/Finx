@@ -45,6 +45,14 @@ const ComparisonPage = () => {
       <Helmet>
         <title>{data.title}</title>
         <meta name="description" content={`Compare ${data.competitorName} vs ${data.finxisName}. ${data.subheading}`} />
+        <link rel="canonical" href={`https://finxis.ai/comparisons/${slug}`} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://finxis.ai/comparisons/${slug}`} />
+        <meta property="og:title" content={data.title} />
+        <meta property="og:description" content={`Compare ${data.competitorName} vs ${data.finxisName}. ${data.subheading}`} />
+        <meta property="og:image" content="https://finxis.ai/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@finxisai" />
       </Helmet>
 
       <Header />
