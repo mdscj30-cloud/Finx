@@ -3,7 +3,7 @@ import { supabase } from '@/lib/customSupabaseClient';
 import { useToast } from '@/components/ui/use-toast';
 import { useNetworkStatus } from '@/hooks/useNetworkStatus';
 
-const AuthContext = createContext(undefined);
+export const AuthContext = createContext(undefined);
 
 export const AuthProvider = ({ children }) => {
   const { toast } = useToast();
