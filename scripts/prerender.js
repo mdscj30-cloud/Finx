@@ -6,14 +6,14 @@
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const distClient = resolve(__dirname, '../dist');
 const ssrBundle  = resolve(__dirname, '../.ssr/entry-server.js');
 
-// Load the built SSR bundle
-const { render } = await import(ssrBundle);
+// Load the built SSR bundle (use file:// URL for Windows compatibility)
+const { render } = await import(pathToFileURL(ssrBundle).href);
 
 // index.html template (client build output)
 const template = readFileSync(resolve(distClient, 'index.html'), 'utf-8');
