@@ -138,7 +138,7 @@ const SegmentCTA = ({ segment }) => {
 
   return (
     <section id="cta-form" className="py-24 bg-blue-600 relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80')] opacity-10 bg-cover bg-center"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80')] opacity-10 bg-cover bg-center"></div>
       
       <div className="container-max relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">

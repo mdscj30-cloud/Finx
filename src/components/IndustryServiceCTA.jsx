@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const IndustryServiceCTA = () => {
   return (
     <section className="py-24 bg-blue-600 relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
       
       <div className="container-max relative z-10 text-center">
         <h2 className="text-4xl font-bold text-white mb-6">Ready to Transform Your Financial Operations?</h2>

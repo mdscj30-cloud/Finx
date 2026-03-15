@@ -20,25 +20,25 @@ const OurTeamPage = () => {
         name: "Sarah Jenkins, CPA",
         role: "Head of Tax Advisory",
         bio: "Sarah brings 15+ years of experience from Big 4 accounting firms. She ensures all AI tax models align with current IRS code and oversees complex filing strategies.",
-        img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200&h=200"
+        img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&h=200&q=80"
     },
     {
         name: "Michael Chen",
         role: "Chief Financial Officer",
         bio: "Former CFO of two successful fintech startups. Michael leads our Virtual CFO division, designing the financial modeling frameworks used by our clients.",
-        img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200&h=200"
+        img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&h=200&q=80"
     },
     {
         name: "Dr. Elena Rodriguez",
         role: "Head of AI Strategy",
         bio: "With a PhD in Computational Finance, Elena bridges the gap between machine learning capabilities and strict financial regulatory requirements.",
-        img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200&h=200"
+        img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&h=200&q=80"
     },
      {
         name: "David Kim",
         role: "VP of Operations",
         bio: "David ensures operational excellence across our bookkeeping teams, implementing rigorous QC standards and efficient human-in-the-loop workflows.",
-        img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200&h=200"
+        img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&h=200&q=80"
     }
   ];
 

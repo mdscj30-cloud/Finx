@@ -9,7 +9,7 @@ const showcaseItems = [
     title: 'CPA Dashboard View',
     description: 'Manage clients, tasks, and firm-wide insights in one powerful command center.',
     subtext: 'Firm Analytics, Task Management, Client Overview',
-    image: <img className="w-full h-auto rounded-2xl shadow-2xl" alt="A comprehensive CPA dashboard showing client lists, task progress, and financial analytics charts." src="https://images.unsplash.com/photo-1625296276703-3fbc924f07b5" />
+    image: <img className="w-full h-auto rounded-2xl shadow-2xl" alt="A comprehensive CPA dashboard showing client lists, task progress, and financial analytics charts." src="https://images.unsplash.com/photo-1625296276703-3fbc924f07b5?auto=format&fit=crop&w=1200&q=80" />
   },
   {
     id: 'client',
@@ -17,7 +17,7 @@ const showcaseItems = [
     title: 'Client Portal Experience',
     description: 'Empower your clients with a transparent, collaborative, and easy-to-use portal.',
     subtext: 'Secure Messaging, Document Uploads, Task Tracking',
-    image: <img className="w-full h-auto rounded-2xl shadow-2xl" alt="A clean and modern client portal interface displaying messages, pending tasks, and shared documents." src="https://images.unsplash.com/photo-1608403810239-ac22e2c3bac7" />
+    image: <img className="w-full h-auto rounded-2xl shadow-2xl" alt="A clean and modern client portal interface displaying messages, pending tasks, and shared documents." src="https://images.unsplash.com/photo-1608403810239-ac22e2c3bac7?auto=format&fit=crop&w=1200&q=80" />
   },
   {
     id: 'ai',
@@ -25,7 +25,7 @@ const showcaseItems = [
     title: 'AI-Powered Finance Assistant',
     description: 'Get automated insights, expense optimization, and proactive tax alerts.',
     subtext: 'Automated Insights, Expense Optimization, Tax Alerts',
-    image: <img className="w-full h-auto rounded-2xl shadow-2xl" alt="An AI financial assistant interface showing cards with insights like 'Burn Rate Alert' and 'Expense Optimization Opportunity'." src="https://images.unsplash.com/photo-1677442136019-21780ecad995" />
+    image: <img className="w-full h-auto rounded-2xl shadow-2xl" alt="An AI financial assistant interface showing cards with insights like 'Burn Rate Alert' and 'Expense Optimization Opportunity'." src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80" />
   }
 ];
 

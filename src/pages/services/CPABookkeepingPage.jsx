@@ -149,7 +149,7 @@ const CPABookkeepingPage = () => {
         <section className="pt-32 pb-20 bg-slate-900 text-white relative min-h-[90vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
              <img 
-               src="https://images.unsplash.com/photo-1554224155-a1487473ffd9?auto=format&fit=crop&q=80" 
+               src="https://images.unsplash.com/photo-1554224155-a1487473ffd9?auto=format&fit=crop&w=800&q=80" 
                alt="Modern accounting firm office" 
                className="w-full h-full object-cover opacity-20"
              />

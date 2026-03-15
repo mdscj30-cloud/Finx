@@ -98,7 +98,7 @@ const serviceIndustryData = {
     industryName: 'E-Commerce',
     heroHeadline: 'Automated E-Commerce Bookkeeping',
     heroSubheading: 'Reconcile Shopify, Amazon, and Stripe sales instantly with AI-driven precision.',
-    heroImage: 'https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `For e-commerce businesses, volume is both a blessing and a curse. Managing thousands of transactions across Shopify, Amazon, Stripe, and PayPal can overwhelm traditional bookkeeping methods. Our AI-enabled service ingests data directly from your sales channels and payment processors, matching orders to deposits with 99.9% accuracy. We separate sales tax, shipping income, and platform fees automatically, giving you a true gross margin view.`,
     industryPainPoints: industries.ecommerce.painPoints,
     solutions: [
@@ -156,7 +156,7 @@ const serviceIndustryData = {
     industryName: 'Healthcare',
     heroHeadline: 'HIPAA-Compliant Bookkeeping for Medical Practices',
     heroSubheading: 'Secure, accurate financial management for private practices, clinics, and healthcare groups.',
-    heroImage: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `Healthcare finance requires a unique blend of precision and privacy. From managing insurance reimbursements to tracking expensive medical equipment, the stakes are high. FinxisAI provides a HIPAA-compliant bookkeeping solution that respects patient confidentiality while giving you deep visibility into your practice's financial health. We automate the reconciliation of EMR/EHR reports with bank deposits, helping you spot denials and underpayments faster.`,
     industryPainPoints: industries.healthcare.painPoints,
     solutions: [
@@ -214,7 +214,7 @@ const serviceIndustryData = {
     industryName: 'SaaS Startups',
     heroHeadline: 'Strategic Tax Prep for High-Growth SaaS',
     heroSubheading: 'Maximize R&D credits and navigate complex state nexus issues while you scale.',
-    heroImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `For SaaS startups, tax season isn't just about filing—it's about burn rate preservation. The R&D Tax Credit can provide a massive runway extension, but only if documented correctly. Furthermore, as you scale users globally, your state and international tax exposure explodes. FinxisAI combines automated tax-ready bookkeeping with expert CPA review to ensure you capture every credit you deserve while staying compliant in every jurisdiction you enter.`,
     industryPainPoints: industries.saas.painPoints,
     solutions: [
@@ -272,7 +272,7 @@ const serviceIndustryData = {
     industryName: 'E-Commerce',
     heroHeadline: 'Strategic Financial Leadership for E-Commerce',
     heroSubheading: 'Scale your brand with data-driven forecasting, inventory planning, and cash flow management.',
-    heroImage: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `E-commerce is a cash-intensive game. Inventory binds up capital, ad spend fluctuates wildly, and payment processors hold your money. You don't just need a bookkeeper; you need a strategic partner. Our Virtual CFO service for e-commerce brands helps you navigate the "Cash Conversion Cycle," plan inventory buys, optimize ad spend ROAS, and forecast cash flow so you never stock out or run dry.`,
     industryPainPoints: industries.ecommerce.painPoints,
     solutions: [
@@ -330,7 +330,7 @@ const serviceIndustryData = {
     industryName: 'Healthcare',
     heroHeadline: 'Precision Payroll for Medical Professionals',
     heroSubheading: 'Handle complex shifts, multiple locations, and provider compensation with ease.',
-    heroImage: 'https://images.unsplash.com/photo-1576091160550-2187d80a1a87?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1576091160550-2187d80a1a87?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `Healthcare payroll is rarely simple. You have doctors on production-based comp, nurses on complex shift differentials, and support staff on hourly wages—often across multiple locations. Mistakes here lead to unhappy providers and compliance risks. FinxisAI delivers a specialized payroll service that integrates with your time-tracking and scheduling software, ensuring every calculation is accurate and every tax is filed on time.`,
     industryPainPoints: industries.healthcare.painPoints,
     solutions: [
@@ -388,7 +388,7 @@ const serviceIndustryData = {
     industryName: 'Nonprofits',
     heroHeadline: 'Specialized Support for Nonprofit Accounting',
     heroSubheading: 'Navigate fund accounting, grant compliance, and Form 990 preparation with expert CPA support.',
-    heroImage: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `Nonprofit accounting is fundamentally different from for-profit accounting. The focus isn't just on the bottom line, but on stewardship, restrictions, and impact. FinxisAI provides specialized support to help your organization manage net assets, track restricted funds, and prepare for the annual audit. We act as your technical accounting partner, ensuring your financial story aligns with your mission.`,
     industryPainPoints: industries.nonprofit.painPoints,
     solutions: [
@@ -446,7 +446,7 @@ const serviceIndustryData = {
     industryName: 'Real Estate',
     heroHeadline: 'Cleanup & Catch-Up for Real Estate Portfolios',
     heroSubheading: 'Untangle years of messy property records, reconcile CAMs, and get tax-ready fast.',
-    heroImage: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `Real estate books often get messy. Properties are bought and sold, refinances happen, and expenses get mixed up between entities. If your portfolio's financials are a tangle of commingled funds and unrecorded depreciation, FinxisAI can help. We specialize in forensic cleanup for real estate, reconstructing property-level P&Ls, reconciling mortgage balances, and ensuring your basis tracking is accurate for tax time.`,
     industryPainPoints: industries.realestate.painPoints,
     solutions: [
@@ -504,7 +504,7 @@ const serviceIndustryData = {
     industryName: 'Professional Services',
     heroHeadline: 'KPI Reporting for Agencies & Firms',
     heroSubheading: 'Move beyond the P&L. Track utilization, project profitability, and client margins.',
-    heroImage: 'https://images.unsplash.com/photo-1554774853-719586f8c277?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1554774853-719586f8c277?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `For law firms, agencies, and consultancies, time is inventory. If you don't track it, you lose it. Standard financial statements don't tell the whole story. You need to know which clients are profitable, which employees are utilized, and how much WIP you have. FinxisAI delivers advanced management reporting that connects your time-tracking data with your financials, giving you the insights to price better and hire smarter.`,
     industryPainPoints: industries.professional.painPoints,
     solutions: [
@@ -562,7 +562,7 @@ const serviceIndustryData = {
     industryName: 'Manufacturing',
     heroHeadline: 'Inventory & Cost Reconciliation for Manufacturers',
     heroSubheading: 'Get control of your COGS, BOMs, and production variances with precision reconciliation.',
-    heroImage: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `In manufacturing, profit is made or lost on the shop floor. Small errors in inventory counts or Bill of Materials (BOM) costs compound into massive financial discrepancies. FinxisAI provides specialized reconciliation services to bridge the gap between your ERP/MRP system and your general ledger. We validate inventory balances, analyze production variances, and ensure your Cost of Goods Sold reflects reality.`,
     industryPainPoints: industries.manufacturing.painPoints,
     solutions: [
@@ -620,7 +620,7 @@ const serviceIndustryData = {
     industryName: 'Nonprofits',
     heroHeadline: 'Strategic Finance for Mission-Driven Orgs',
     heroSubheading: 'Sustainable financial planning, grant strategy, and board transparency.',
-    heroImage: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=800&q=80',
     serviceDescription: `Nonprofits face unique financial pressures: reliance on donors, restricted funding, and the need to demonstrate impact efficiency. A standard bookkeeper can't navigate these strategic waters. Our Virtual CFO service brings executive-level financial leadership to your organization. We help you build sustainable budgets, manage cash flow through grant cycles, and present financial narratives that inspire confidence in your board and donors.`,
     industryPainPoints: industries.nonprofit.painPoints,
     solutions: [

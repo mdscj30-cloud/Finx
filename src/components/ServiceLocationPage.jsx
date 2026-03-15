@@ -28,7 +28,7 @@ const ServiceLocationPage = () => {
       hero: {
         headline: "Expert Financial Services",
         subheading: "AI-driven accuracy with professional human oversight.",
-        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80"
+        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
       },
       intro: "We provide top-tier financial services tailored to local businesses.",
       challenges: [{title: "Compliance", desc: "Meeting local regulations."}],

@@ -14,7 +14,7 @@ export const industryServiceData = {
     hero: {
       headline: " specialized Bookkeeping for SaaS Growth",
       subheading: "Track MRR, ARR, and Churn accurately while we handle the daily reconciliation and ASC 606 compliance.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Software-as-a-Service (SaaS) businesses operate on a unique financial model where recurring revenue, deferred revenue, and customer acquisition costs (CAC) are the heartbeat of the organization. Standard bookkeeping often fails to capture the nuance of subscription models, leading to skewed metrics and compliance risks. At FinxisAI, we provide specialized bookkeeping that aligns your financial records with SaaS metrics.",
     challenges: [
@@ -62,7 +62,7 @@ export const industryServiceData = {
     hero: {
       headline: "Scalable Accounting for SaaS Startups",
       subheading: "From seed round to exit, we provide the financial infrastructure you need to scale fast and stay compliant.",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
     },
     intro: "SaaS startups move fast. You need accounting that keeps pace with your growth while preparing you for due diligence at any moment. We focus on burn rate management, R&D tax credit optimization, and accurate financial reporting for board meetings.",
     challenges: [
@@ -110,7 +110,7 @@ export const industryServiceData = {
     hero: {
       headline: "Strategic CFO Leadership for SaaS",
       subheading: "Drive valuation with expert financial modeling, cohort analysis, and capital strategy.",
-      image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Scaling a SaaS business requires more than just accurate books; it requires strategic foresight. Our Virtual CFO service helps you model future growth, understand your unit economics (LTV/CAC), and prepare for your next fundraising round.",
     challenges: [
@@ -160,7 +160,7 @@ export const industryServiceData = {
     hero: {
       headline: "Multi-Channel E-Commerce Bookkeeping",
       subheading: "Stop wrestling with spreadsheets. We automate reconciliation for Shopify, Amazon, and Stripe.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&w=800&q=80"
     },
     intro: "E-commerce bookkeeping is complex due to high transaction volumes, multiple sales channels, and payment processor fees. FinxisAI automates the flow of data from your store to your ledger, ensuring you know your true margins.",
     challenges: [
@@ -208,7 +208,7 @@ export const industryServiceData = {
     hero: {
       headline: "Growth Accounting for DTC Brands",
       subheading: "Move beyond basic bookkeeping. Get strategic accounting that optimizes inventory and cash flow.",
-      image: "https://images.unsplash.com/photo-1472851294608-41551cb68409?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1472851294608-41551cb68409?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Online stores face cash crunches due to inventory outlays. Our accounting services focus on inventory management, landed cost calculations, and cash flow timing to ensure you can fund your next PO.",
     challenges: [
@@ -256,7 +256,7 @@ export const industryServiceData = {
     hero: {
       headline: "Solve the Sales Tax Puzzle",
       subheading: "Don't let Nexus laws slow you down. We manage registration and filing across all 50 states.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Since the Wayfair decision, e-commerce sellers must track sales thresholds in every state. It is a compliance minefield. FinxisAI provides automated sales tax compliance services to keep you safe.",
     challenges: [
@@ -304,7 +304,7 @@ export const industryServiceData = {
     hero: {
       headline: "Strategic Finance for Scaling Brands",
       subheading: "Master your cash conversion cycle and plan inventory buys with precision.",
-      image: "https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Scaling a brand requires capital. Our Virtual CFOs help you manage that capital, negotiate vendor terms, and optimize your marketing spend (MER) for profitable growth.",
     challenges: [
@@ -354,7 +354,7 @@ export const industryServiceData = {
     hero: {
       headline: "HIPAA-Compliant Medical Bookkeeping",
       subheading: "Secure, accurate financial records for private practices. Focus on patients, not paperwork.",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Medical practices deal with complex revenue cycles—insurance deposits, co-pays, and patient billing. FinxisAI provides specialized bookkeeping that ensures every dollar is accounted for while maintaining strict patient privacy.",
     challenges: [
@@ -402,7 +402,7 @@ export const industryServiceData = {
     hero: {
       headline: "Accounting for Growing Clinics",
       subheading: "Scale your practice with multi-location financial management and expert tax strategy.",
-      image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"
     },
     intro: "As practices grow to multiple locations or add partners, accounting complexity explodes. We provide the structure needed to manage consolidated financials, partner distributions, and sophisticated tax planning.",
     challenges: [
@@ -450,7 +450,7 @@ export const industryServiceData = {
     hero: {
       headline: "Error-Free Healthcare Payroll",
       subheading: "Manage complex shifts, production bonuses, and multiple tax jurisdictions with ease.",
-      image: "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Healthcare payroll is notorious for errors due to complex pay structures. FinxisAI automates the process, ensuring your staff is paid correctly and on time, boosting morale and retention.",
     challenges: [
@@ -500,7 +500,7 @@ export const industryServiceData = {
     hero: {
       headline: "Bookkeeping Built for Agencies",
       subheading: "Know which clients are profitable. Track project costs and retainers with precision.",
-      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Agencies live and die by cash flow and margins. If you don't track expenses by client, you don't know who is making you money. FinxisAI provides project-based bookkeeping to give you that clarity.",
     challenges: [
@@ -548,7 +548,7 @@ export const industryServiceData = {
     hero: {
       headline: "Scale Your Agency Profitably",
       subheading: "Move from chaos to clarity with agency-specific accounting and KPI tracking.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
     },
     intro: "As agencies scale, 'cash in bank' is no longer a good metric. You need to understand utilization, realization rates, and Work In Progress (WIP). Our accounting service provides the management reporting you need to scale operations.",
     challenges: [
@@ -596,7 +596,7 @@ export const industryServiceData = {
     hero: {
       headline: "Strategic Finance for Agency Owners",
       subheading: "Break through revenue plateaus with expert financial guidance and forecasting.",
-      image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Many agencies hit a revenue ceiling. Breaking through requires strategic investment and financial discipline. Our Virtual CFOs partner with agency owners to plan for growth, acquisitions, or exit.",
     challenges: [
@@ -646,7 +646,7 @@ export const industryServiceData = {
     hero: {
       headline: "Precision Bookkeeping for Professionals",
       subheading: "Lawyers, Architects, Consultants: Keep your books compliant and your billing accurate.",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Professional services firms sell expertise. Your inventory is time. We ensure your financial records reflect the value you deliver, tracking reimbursable expenses and trust accounts with absolute precision.",
     challenges: [
@@ -694,7 +694,7 @@ export const industryServiceData = {
     hero: {
       headline: "Accounting Foundation for Startups",
       subheading: "Get set up right from Day 1. Scalable financial systems for high-growth potential.",
-      image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=800&q=80"
     },
     intro: "Startups need to be lean but compliant. Bad accounting in the early days creates 'technical debt' that kills deals later. We provide a right-sized accounting solution that grows with you.",
     challenges: [

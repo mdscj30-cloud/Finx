@@ -45,7 +45,7 @@ const BlogCategoryPage = () => {
 
       <main className="pt-24 pb-20">
          <section className="bg-slate-900 text-white py-16 mb-12 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&q=80')] opacity-10 bg-cover bg-center"></div>
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=800&q=80')] opacity-10 bg-cover bg-center"></div>
           <div className="container-max text-center relative z-10">
             <div className="inline-flex items-center justify-center p-3 bg-white/10 backdrop-blur-sm rounded-full mb-6">
               <FolderOpen className="w-6 h-6 text-blue-300" />

@@ -16,7 +16,7 @@ const PartnershipHero = ({ scrollToForm }) => (
   <section className="relative min-h-[90vh] flex items-center pt-24 pb-20 bg-slate-900 overflow-hidden">
     <div className="absolute inset-0">
       <img 
-        src="https://images.unsplash.com/photo-1651009188116-bb5f80eaf6aa?auto=format&fit=crop&q=80" 
+        src="https://images.unsplash.com/photo-1651009188116-bb5f80eaf6aa?auto=format&fit=crop&w=800&q=80" 
         alt="Modern office collaborative workspace" 
         className="w-full h-full object-cover opacity-20"
       />
@@ -167,7 +167,7 @@ const PartnershipLandingPage = () => {
                  </div>
                  <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80" 
+                      src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80" 
                       alt="Support Team" 
                       className="rounded-2xl shadow-2xl"
                     />

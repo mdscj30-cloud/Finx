@@ -150,7 +150,7 @@ const CPAOutsourcedSupportPage = () => {
         <section className="pt-32 pb-20 bg-indigo-900 text-white relative min-h-[90vh] flex items-center overflow-hidden">
            <div className="absolute inset-0 z-0">
              <img 
-               src="https://images.unsplash.com/photo-1651009188116-bb5f80eaf6aa?auto=format&fit=crop&q=80" 
+               src="https://images.unsplash.com/photo-1651009188116-bb5f80eaf6aa?auto=format&fit=crop&w=800&q=80" 
                alt="Team collaborating in modern office" 
                className="w-full h-full object-cover opacity-20"
              />
