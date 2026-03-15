@@ -58,6 +58,7 @@ const ClientBillingPage = lazy(() => import('@/pages/ClientBillingPage'));
 const ClientMessagesPage = lazy(() => import('@/pages/ClientMessagesPage'));
 const ClientSettingsPage = lazy(() => import('@/pages/ClientSettingsPage'));
 const ClientReportsPage = lazy(() => import('@/pages/ClientReportsPage'));
+const ClientBookkeepingPage = lazy(() => import('@/pages/ClientBookkeepingPage'));
 const CpaPortalLayout = lazy(() => import('@/components/cpa/CpaPortalLayout'));
 const CpaDashboard = lazy(() => import('@/pages/cpa/CpaDashboard'));
 const CpaClientsPage = lazy(() => import('@/pages/cpa/CpaClientsPage'));
@@ -273,6 +274,7 @@ function App() {
                 <Route path="messages" element={<ClientMessagesPage />} />
                 <Route path="settings" element={<ClientSettingsPage />} />
                 <Route path="reports" element={<ClientReportsPage />} />
+                <Route path="bookkeeping" element={<ClientBookkeepingPage />} />
               </Route>
 
               <Route path="/cpa" element={<CpaPortalLayout />}>

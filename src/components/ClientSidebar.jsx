@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
 import {
-  LayoutDashboard, Link as LinkIcon, FileText, MessageSquare, Settings, LogOut, Bot, CreditCard, BarChart3
+  LayoutDashboard, Link as LinkIcon, FileText, MessageSquare, Settings, LogOut, Bot, CreditCard, BarChart3, BookOpen
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { toast } from '@/components/ui/use-toast';
@@ -17,6 +17,7 @@ const ClientSidebar = () => {
 
   const navItems = [
     { icon: LayoutDashboard, label: 'Dashboard', path: '/client/dashboard' },
+    { icon: BookOpen, label: 'Bookkeeping', path: '/client/bookkeeping' },
     { icon: FileText, label: 'Documents', path: '/client/documents' },
     { icon: BarChart3, label: 'Reports', path: '/client/reports' },
     { icon: CreditCard, label: 'Billing', path: '/client/billing' },
