@@ -47,6 +47,7 @@ const FormationServicesPage = lazy(() => import('@/pages/FormationServicesPage')
 const OnboardingPage = lazy(() => import('@/pages/OnboardingPage'));
 const LoginPage = lazy(() => import('@/pages/LoginPage'));
 const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'));
+const SitemapPage = lazy(() => import('@/pages/SitemapPage'));
 
 // Portals (Lazy)
 const ClientPortalLayout = lazy(() => import('@/components/ClientPortalLayout'));
@@ -287,6 +288,7 @@ function App() {
             </Route>
 
             {/* 404 Catch-All Route */}
+            <Route path="/sitemap" element={<SitemapPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>

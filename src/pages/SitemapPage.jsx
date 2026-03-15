@@ -13,7 +13,7 @@ const SitemapPage = () => {
     document.title = "sitemap.xml";
   }, []);
 
-  const baseUrl = "https://finxisai.com";
+  const baseUrl = "https://finxis.ai";
   const lastMod = new Date().toISOString().split('T')[0];
 
   const renderUrl = (path, priority, freq) => {
@@ -36,7 +36,7 @@ const SitemapPage = () => {
     xml += renderUrl('/contact', '0.8', 'monthly');
     xml += renderUrl('/careers', '0.7', 'monthly');
     xml += renderUrl('/about', '0.8', 'monthly');
-    xml += renderUrl('/onboarding', '0.8', 'monthly');
+    // Note: /onboarding excluded — private auth route
     xml += renderUrl('/privacy-policy', '0.6', 'yearly');
     
     // 2. Service Pages
