@@ -9,12 +9,14 @@ import MobileNavigation from '@/components/MobileNavigation';
 const Header = () => {
   const [hoveredNav, setHoveredNav] = useState(null);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isPastHero, setIsPastHero] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
+      setIsPastHero(window.scrollY > 600);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -108,17 +110,43 @@ const Header = () => {
           </nav>
 
           <div className="hidden lg:flex items-center gap-4">
-            <Link 
+            <Link
               to="/login"
               className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors"
             >
               Log in
             </Link>
-            <Link to="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-lg shadow-blue-500/20 rounded-full px-6">
-                Get Started
-              </Button>
-            </Link>
+            <AnimatePresence mode="wait">
+              {isPastHero ? (
+                <motion.div
+                  key="trial"
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.9 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <Link to="/onboarding">
+                    <Button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-lg shadow-blue-500/20 rounded-full px-6">
+                      Start Free Trial
+                    </Button>
+                  </Link>
+                </motion.div>
+              ) : (
+                <motion.div
+                  key="started"
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.9 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <Link to="/contact">
+                    <Button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-lg shadow-blue-500/20 rounded-full px-6">
+                      Get Started
+                    </Button>
+                  </Link>
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
 
           <button

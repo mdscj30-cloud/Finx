@@ -1,15 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { 
-  PieChart, 
-  ScanText, 
-  BrainCircuit, 
-  Users, 
-  Landmark, 
+import {
+  PieChart,
+  ScanText,
+  BrainCircuit,
+  Users,
+  Landmark,
   ShieldCheck,
   Zap,
   TrendingUp
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Features = () => {
   const features = [
@@ -117,9 +118,9 @@ const Features = () => {
           <p className="text-lg text-slate-600 mb-6">
             Ready to experience the future of financial management?
           </p>
-          <button className="btn-primary">
+          <Link to="/services/ai-bookkeeping" className="btn-primary inline-flex items-center gap-2">
             Explore All Features
-          </button>
+          </Link>
         </motion.div>
       </div>
     </section>

@@ -38,8 +38,12 @@ const Footer = () => {
               The future of accounting is hybrid.
             </p>
             <div className="flex space-x-4">
-              {[Linkedin, Twitter, Facebook].map((Icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 text-slate-400 hover:text-white transition-all">
+              {[
+                { Icon: Linkedin, href: 'https://www.linkedin.com/company/finxisai' },
+                { Icon: Twitter, href: 'https://twitter.com/finxisai' },
+                { Icon: Facebook, href: 'https://facebook.com/finxisai' },
+              ].map(({ Icon, href }, i) => (
+                <a key={i} href={href} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 text-slate-400 hover:text-white transition-all">
                   <Icon className="w-5 h-5" />
                 </a>
               ))}

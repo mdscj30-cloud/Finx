@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 
@@ -17,19 +17,35 @@ const CallToAction = () => {
         >
           <div className="absolute -top-10 -left-10 w-32 h-32 bg-white/10 rounded-full animate-pulse-slow" />
           <div className="absolute -bottom-16 -right-10 w-48 h-48 bg-white/10 rounded-full animate-pulse-slow" />
-          
-          <h2 className="text-4xl lg:text-5xl font-display font-bold mb-6 relative">
-            Ready to Transform Your Finances?
-          </h2>
-          <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-10 relative">
-            Join hundreds of businesses and accounting firms who trust FinxisAI to automate their finances and unlock strategic insights.
-          </p>
-          <Button asChild size="lg" className="btn-primary bg-white text-blue-600 hover:bg-blue-50 group text-lg px-8 py-6">
-            <Link to="/contact">
-              Request a Demo
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
-          </Button>
+          <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-white/5 rounded-full" />
+
+          <div className="relative">
+            <span className="inline-block bg-white/20 text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
+              14-day free trial · No credit card required
+            </span>
+
+            <h2 className="text-4xl lg:text-5xl font-display font-bold mb-6">
+              Ready to Transform Your Finances?
+            </h2>
+            <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-10">
+              Join 1,000+ CPAs and businesses already saving hours every week with FinxisAI's AI-powered accounting platform.
+            </p>
+
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Button asChild size="lg" className="bg-white text-blue-600 hover:bg-blue-50 font-semibold text-lg px-8 py-6 group">
+                <Link to="/onboarding">
+                  Start Free Trial
+                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 font-semibold text-lg px-8 py-6 group">
+                <Link to="/contact">
+                  <Calendar className="mr-2 w-5 h-5" />
+                  Book a Demo
+                </Link>
+              </Button>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>

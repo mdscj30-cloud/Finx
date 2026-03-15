@@ -17,6 +17,9 @@ import { generateOrganizationSchema, generateLocalBusinessSchema, generateBreadc
 import { Button } from '@/components/ui/button';
 import OptimizedImage from '@/components/OptimizedImage';
 import SEOHead from '@/components/SEOHead';
+import HowItWorks from '@/components/HowItWorks';
+import IntegrationsStrip from '@/components/IntegrationsStrip';
+import ROICalculator from '@/components/ROICalculator';
 
 const HomePage = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -26,28 +29,36 @@ const HomePage = () => {
       title: "AI-Enabled Bookkeeping",
       description: "Automated reconciliation and transaction coding with expert oversight.",
       icon: BrainCircuit,
-      color: "blue",
+      iconBg: "bg-blue-100",
+      iconText: "text-blue-600",
+      linkText: "text-blue-600",
       path: "/services/ai-bookkeeping"
     },
     {
       title: "CPA Firm Solutions",
       description: "White-label bookkeeping and outsourced support to scale your practice.",
       icon: Briefcase,
-      color: "purple",
+      iconBg: "bg-purple-100",
+      iconText: "text-purple-600",
+      linkText: "text-purple-600",
       path: "/services/cpa-bookkeeping"
     },
     {
       title: "Tax Preparation",
       description: "AI-assisted filing and strategic tax planning for maximum savings.",
       icon: FileCheck,
-      color: "emerald",
+      iconBg: "bg-emerald-100",
+      iconText: "text-emerald-600",
+      linkText: "text-emerald-600",
       path: "/services/tax-preparation"
     },
     {
       title: "Virtual CFO",
       description: "Fractional CFO leadership for strategic growth and forecasting.",
       icon: Target,
-      color: "violet",
+      iconBg: "bg-violet-100",
+      iconText: "text-violet-600",
+      linkText: "text-violet-600",
       path: "/services/virtual-cfo"
     }
   ];
@@ -70,8 +81,8 @@ const HomePage = () => {
       <main>
         {/* Updated Hero with CPA CTA */}
         <div className="relative">
-          <OptimizedImage 
-            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80"
+          <OptimizedImage
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=75"
             alt="Hero Background"
             className="absolute inset-0 w-full h-full object-cover opacity-10"
             priority={true}
@@ -81,6 +92,12 @@ const HomePage = () => {
           </div>
         </div>
         
+        <IntegrationsStrip />
+
+        <section aria-label="How It Works">
+          <HowItWorks />
+        </section>
+
         <section aria-label="Key Features">
           <Features />
         </section>
@@ -163,8 +180,8 @@ const HomePage = () => {
                     whileHover={{ y: -5 }}
                     className="h-full bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col"
                   >
-                    <div className={`w-14 h-14 rounded-xl bg-${service.color}-100 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                      <service.icon className={`w-7 h-7 text-${service.color}-600`} />
+                    <div className={`w-14 h-14 rounded-xl ${service.iconBg} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                      <service.icon className={`w-7 h-7 ${service.iconText}`} />
                     </div>
                     <h3 className="text-xl font-bold mb-3 text-slate-900 group-hover:text-blue-600 transition-colors">
                       {service.title}
@@ -172,7 +189,7 @@ const HomePage = () => {
                     <p className="text-slate-600 mb-6 flex-grow">
                       {service.description}
                     </p>
-                    <div className={`flex items-center font-semibold text-${service.color}-600 group-hover:gap-2 transition-all`}>
+                    <div className={`flex items-center font-semibold ${service.linkText} group-hover:gap-2 transition-all`}>
                       Learn more <ArrowRight className="w-4 h-4 ml-1" />
                     </div>
                   </motion.div>
@@ -190,6 +207,10 @@ const HomePage = () => {
           </div>
         </section>
         
+        <section aria-label="ROI Calculator">
+          <ROICalculator />
+        </section>
+
         <section aria-label="Client Testimonials">
           <Testimonials />
         </section>

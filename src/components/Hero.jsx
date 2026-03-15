@@ -31,7 +31,7 @@ const Hero = ({ onWatchDemo }) => { // onWatchDemo prop is still kept as request
               transition={{ delay: 0.3 }}
               className="text-5xl lg:text-6xl font-display font-bold leading-tight"
             >
-              FinxisAI provides AI-enabled bookkeeping.
+              Grow Your Business with AI-Powered Accounting
             </motion.h1>
 
             <motion.p
@@ -95,7 +95,7 @@ const Hero = ({ onWatchDemo }) => { // onWatchDemo prop is still kept as request
           >
             <div className="relative z-10 p-4">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-3xl transform -rotate-3"></div>
-              <img className="w-full h-auto rounded-2xl shadow-2xl relative transform rotate-1 hover:rotate-0 transition-transform duration-500" alt="A futuristic, holographic financial dashboard interface displaying complex data visualizations and analytics." src="https://images.unsplash.com/photo-1571677246347-5040036b95cc" />
+              <img className="w-full h-auto rounded-2xl shadow-2xl relative transform rotate-1 hover:rotate-0 transition-transform duration-500" alt="A futuristic, holographic financial dashboard interface displaying complex data visualizations and analytics." src="https://images.unsplash.com/photo-1571677246347-5040036b95cc?auto=format&fit=crop&w=900&q=80" />
             </div>
           </motion.div>
         </div>

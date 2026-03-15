@@ -49,12 +49,12 @@ const Testimonials = () => {
   ];
   
   const testimonialImages = [
-    <img key="0" className="w-12 h-12 rounded-full object-cover" alt="Professional Caucasian male CPA in business attire smiling confidently" src="https://images.unsplash.com/photo-1585734333426-b96221fbb2bb" />,
-    <img key="1" className="w-12 h-12 rounded-full object-cover" alt="Young female entrepreneur in a modern office setting" src="https://images.unsplash.com/photo-1590650467980-8eadfa86ff48" />,
-    <img key="2" className="w-12 h-12 rounded-full object-cover" alt="Professional accountant working with financial documents in a UK office" src="https://images.unsplash.com/photo-1554224155-a1487473ffd9" />,
-    <img key="3" className="w-12 h-12 rounded-full object-cover" alt="Confident female CFO in a corporate American environment" src="https://images.unsplash.com/photo-1573496130141-209d200cebd8" />,
-    <img key="4" className="w-12 h-12 rounded-full object-cover" alt="Professional tax consultant reviewing financial reports in a US city" src="https://images.unsplash.com/photo-1554425930-4d8de8b3fdd2" />,
-    <img key="5" className="w-12 h-12 rounded-full object-cover" alt="UK-based small business owner in her boutique shop" src="https://images.unsplash.com/photo-1649192155955-a2961de16fb5" />
+    <img key="0" className="w-12 h-12 rounded-full object-cover" alt="Professional Caucasian male CPA in business attire smiling confidently" src="https://images.unsplash.com/photo-1585734333426-b96221fbb2bb?auto=format&fit=crop&w=96&q=80" />,
+    <img key="1" className="w-12 h-12 rounded-full object-cover" alt="Young female entrepreneur in a modern office setting" src="https://images.unsplash.com/photo-1590650467980-8eadfa86ff48?auto=format&fit=crop&w=96&q=80" />,
+    <img key="2" className="w-12 h-12 rounded-full object-cover" alt="Professional accountant working with financial documents in a UK office" src="https://images.unsplash.com/photo-1554224155-a1487473ffd9?auto=format&fit=crop&w=96&q=80" />,
+    <img key="3" className="w-12 h-12 rounded-full object-cover" alt="Confident female CFO in a corporate American environment" src="https://images.unsplash.com/photo-1573496130141-209d200cebd8?auto=format&fit=crop&w=96&q=80" />,
+    <img key="4" className="w-12 h-12 rounded-full object-cover" alt="Professional tax consultant reviewing financial reports in a US city" src="https://images.unsplash.com/photo-1554425930-4d8de8b3fdd2?auto=format&fit=crop&w=96&q=80" />,
+    <img key="5" className="w-12 h-12 rounded-full object-cover" alt="UK-based small business owner in her boutique shop" src="https://images.unsplash.com/photo-1649192155955-a2961de16fb5?auto=format&fit=crop&w=96&q=80" />
   ];
 
   return (
